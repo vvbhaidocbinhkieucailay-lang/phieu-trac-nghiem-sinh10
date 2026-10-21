@@ -3,6 +3,7 @@
   const exam = window.EXAM, engine = window.PHIEU;
   const $ = id => document.getElementById(id);
   const STORAGE = 'sinh10-103-selection-v1';
+  document.querySelector('.guide-link')?.addEventListener('click',()=>{$('how-to').open=true;});
   const blank = () => ({ mc:Array(12).fill(''), tf:[Array(4).fill(''),Array(4).fill('')], short:Array.from({length:8},()=>Array(4).fill('')), essay:Array(3).fill(''), name:'', className:'', studentId:'', prompts:true, submitted:false, submittedAt:'' });
   const clean = raw => {
     const s = blank();

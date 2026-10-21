@@ -46,3 +46,7 @@ Bài làm lưu trong trình duyệt học sinh, khóa lưu riêng cho mã 103. �
 Chạy `node test-scoring.cjs`: kiểm tra 7/7, bài trắng, từng ý đúng–sai, chuỗi tăng dần, nhầm số lượng, đảo/lặp/thập phân/cột trống. Xem thử qua HTTP, kiểm tra hình trên điện thoại và máy tính. Đổi đề phải đổi mã, khóa lưu và phiên bản đường dẫn CSS/JS để lấy tệp mới.
 
 GitHub Pages xuất bản từ nhánh `main`, thư mục gốc `/`. Đẩy commit, chờ Pages hoàn tất và kiểm tra link công khai. Không cần chạy máy chủ của giáo viên.
+
+## Giao diện và hướng dẫn tô
+
+Giao diện phần đầu dùng tiêu đề “Ôn tập Sinh học 10” và “Luyện tập và tự đánh giá kiến thức”, phân biệt ba dạng bằng xanh dương, cam, tím. `interface.css` quản lý màu và bố cục đáp ứng. Mục Hướng dẫn tô có ô A–D tô thử ngoài bài làm và mẫu tô chuỗi 134. Nút Xem hướng dẫn tô mở mục này; có thể thu gọn. Khi sửa giao diện, giữ khóa lưu bài và dữ liệu đáp án, đồng thời đổi phiên bản CSS/JS để trình duyệt tải bản mới.
