@@ -103,7 +103,7 @@
     });
   }
   const format=n=>new Intl.NumberFormat('vi-VN',{maximumFractionDigits:2}).format(n);
-  function displayValue(v){return v==='D'?'Đúng':v==='S'?'Sai':v||'Bỏ trống';}
+  function displayValue(v,section){return section==='tf'?(v==='D'?'Đúng':v==='S'?'Sai':'Bỏ trống'):(v||'Bỏ trống');}
   function showResult(scroll){
     const r=engine.grade(exam,state);$('result').hidden=false;document.body.classList.add('has-result');
     $('total-score').textContent=format(r.total);
@@ -117,8 +117,8 @@
       $('review-content').append(node('h3',label,'review-head'));
       r.rows.filter(x=>x.section===section).forEach(x=>{
         const row=node('div',undefined,`review-row ${x.correct?'good':'bad'}`);const id=node('span',x.id);id.append(node('span',x.correct?'ĐÚNG':x.value?'CHƯA ĐÚNG':'BỎ TRỐNG','badge'));
-        const value=node('span');value.append(node('small','Bài làm'),node('span',displayValue(x.value)));
-        const key=node('span');key.append(node('small','Đáp án'),node('span',displayValue(x.key)));
+        const value=node('span');value.append(node('small','Bài làm'),node('span',displayValue(x.value,x.section)));
+        const key=node('span');key.append(node('small','Đáp án'),node('span',displayValue(x.key,x.section)));
         row.append(id,value,key,node('span',x.explanation));$('review-content').append(row);
       });
     });
@@ -147,7 +147,7 @@
   $('review').addEventListener('click',()=>{const c=$('review-content');c.hidden=!c.hidden;$('review').textContent=c.hidden?'Xem đáp án và giải thích':'Thu gọn lời giải';});
   $('print').addEventListener('click',()=>window.print());
   $('download').addEventListener('click',()=>{
-    const r=engine.grade(exam,state);const text=[`KẾT QUẢ ÔN TẬP SINH HỌC 10 — MÃ 101`, `Họ tên: ${state.name||'(chưa nhập)'}`,`Lớp: ${state.className||''} — SBD: ${state.studentId||''}`,`Thời điểm nộp: ${state.submittedAt?new Date(state.submittedAt).toLocaleString('vi-VN',{timeZone:'Asia/Ho_Chi_Minh'}):''}`,`Điểm trắc nghiệm: ${format(r.total)}/7`, `A: ${format(r.points.mc)}/3; B: ${format(r.points.tf)}/2; C: ${format(r.points.short)}/2.`,`Tự luận chưa chấm. Không phải tổng điểm trên 10.`,``,...r.rows.map(x=>`${x.id}: ${displayValue(x.value)} | Đáp án: ${displayValue(x.key)} | ${x.correct?'Đúng':'Chưa đúng'}`),``,...state.essay.map((x,i)=>`Tự luận ${i+1}:\n${x||'(chưa làm)'}`)].join('\n');
+    const r=engine.grade(exam,state);const text=[`KẾT QUẢ ÔN TẬP SINH HỌC 10 — MÃ 101`, `Họ tên: ${state.name||'(chưa nhập)'}`,`Lớp: ${state.className||''} — SBD: ${state.studentId||''}`,`Thời điểm nộp: ${state.submittedAt?new Date(state.submittedAt).toLocaleString('vi-VN',{timeZone:'Asia/Ho_Chi_Minh'}):''}`,`Điểm trắc nghiệm: ${format(r.total)}/7`, `A: ${format(r.points.mc)}/3; B: ${format(r.points.tf)}/2; C: ${format(r.points.short)}/2.`,`Tự luận chưa chấm. Không phải tổng điểm trên 10.`,``,...r.rows.map(x=>`${x.id}: ${displayValue(x.value,x.section)} | Đáp án: ${displayValue(x.key,x.section)} | ${x.correct?'Đúng':'Chưa đúng'}`),``,...state.essay.map((x,i)=>`Tự luận ${i+1}:\n${x||'(chưa làm)'}`)].join('\n');
     const blob=new Blob(['\uFEFF',text],{type:'text/plain;charset=utf-8'}),url=URL.createObjectURL(blob),a=node('a');a.href=url;a.download='Ket_qua_Sinh_hoc_10_Ma_101.txt';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
   });
   render();if(state.submitted)showResult(false);if(!storageWorks)$('save-status').textContent='Không tự lưu được; hãy giữ trang mở';
