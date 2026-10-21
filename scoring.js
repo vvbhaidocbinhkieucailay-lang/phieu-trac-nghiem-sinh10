@@ -29,8 +29,8 @@
       rows.push({ section: 'tf', id: `B${i+1}${'abcd'[j]}`, value, key: item.key, correct, explanation: item.explanation });
     }));
     exam.short.forEach((q, i) => {
-      const p = readColumns(answers.short[i]), k = parseNumber(q.key);
-      const correct = p.valid && k.valid && p.value === k.value;
+      const p = readAnswer(q, answers.short[i]), k = parseNumber(q.key);
+      const correct = q.kind === 'selection' ? p.valid && p.text === String(q.key) : p.valid && k.valid && p.value === k.value;
       if (p.valid) answered.short++;
       if (correct) counts.short++;
       rows.push({ section: 'short', id: `C${i+1}`, value: p.text, key: q.key, correct, valid: p.valid || p.empty, explanation: q.explanation });
@@ -38,6 +38,13 @@
     const points = { mc: counts.mc * .25, tf: counts.tf * .25, short: counts.short * .25 };
     return { rows, counts, answered, points, total: points.mc + points.tf + points.short, correct: counts.mc + counts.tf + counts.short };
   }
-  root.PHIEU = { parseNumber, readColumns, grade };
+  function readAnswer(question, columns) {
+    const p = readColumns(columns);
+    if (question.kind !== 'selection' || p.empty) return p;
+    const digits = [...p.text];
+    const selectionValid = /^[1-4]{1,4}$/.test(p.text) && digits.every((ch,i) => i === 0 || digits[i-1] < ch);
+    return { ...p, valid: p.valid && selectionValid };
+  }
+  root.PHIEU = { parseNumber, readColumns, readAnswer, grade };
   if (typeof module !== 'undefined') module.exports = root.PHIEU;
 })(typeof window !== 'undefined' ? window : globalThis);

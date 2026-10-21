@@ -1,240 +1,282 @@
 window.EXAM = {
-  "code": "101",
+  "code": "103",
   "subject": "Sinh học 10",
   "title": "Ôn tập giữa học kì I",
-  "year": "2026 – 2027",
+  "year": "2026–2027",
   "duration": 45,
   "mc": [
     {
-      "stem": "Đối tượng nghiên cứu của sinh học là",
+      "stem": "Ngành nghề chủ yếu nghiên cứu, sản xuất thuốc, vaccine và kháng thể dùng trong phòng, chữa bệnh là",
       "options": [
-        "các chất và sự biến đổi của chúng.",
-        "sinh vật và các cấp độ tổ chức của thế giới sống.",
-        "vật chất, năng lượng và sự vận động của chúng.",
-        "các thiên thể và chuyển động của chúng."
+        "pháp y.",
+        "dược học.",
+        "lâm nghiệp.",
+        "thủy sản."
       ],
       "key": "B",
-      "explanation": "Sinh học nghiên cứu sinh vật và các cấp độ tổ chức của thế giới sống."
+      "explanation": "Dược học gắn với nghiên cứu, sản xuất thuốc và các chế phẩm dùng trong phòng, chữa bệnh."
     },
     {
-      "stem": "Ngành công nghệ sử dụng tế bào sống và các quá trình sinh học để tạo ra sản phẩm phục vụ con người là",
+      "stem": "Hoạt động nào là ứng dụng sinh học trong bảo vệ môi trường?",
       "options": [
-        "công nghệ thông tin.",
-        "công nghệ vật liệu.",
-        "công nghệ cơ khí.",
-        "công nghệ sinh học."
+        "Chế tạo kính thiên văn.",
+        "Sản xuất dây dẫn điện.",
+        "Thiết kế động cơ nhiệt.",
+        "Dùng vi sinh vật xử lí nước thải."
       ],
       "key": "D",
-      "explanation": "Công nghệ sinh học ứng dụng tế bào và các quá trình sinh học."
+      "explanation": "Vi sinh vật có thể phân giải các chất ô nhiễm trong xử lí nước thải."
     },
     {
-      "stem": "Trong tiến trình nghiên cứu sinh học, kĩ năng giúp định hướng vấn đề cần nghiên cứu là",
+      "stem": "Thiết bị dùng để quan sát các tế bào biểu bì hành trong giờ thực hành là",
       "options": [
-        "quan sát và đặt câu hỏi nghiên cứu.",
-        "lập danh mục tài liệu tham khảo.",
-        "viết báo cáo kết quả nghiên cứu.",
-        "trình bày kết luận nghiên cứu."
+        "kính hiển vi quang học.",
+        "cân điện tử.",
+        "máy li tâm.",
+        "nhiệt kế."
       ],
       "key": "A",
-      "explanation": "Quan sát và đặt câu hỏi xác định vấn đề cần nghiên cứu."
+      "explanation": "Kính hiển vi quang học phóng đại hình ảnh tế bào để quan sát."
     },
     {
-      "stem": "Một học sinh ghi chép hình dạng lá, thân, hoa của các cây trong vườn để phân loại chúng. Học sinh chủ yếu sử dụng phương pháp nào?",
+      "stem": "Sau khi thấy cây ở gần cửa sổ nghiêng về phía sáng, học sinh dự đoán: “Ánh sáng có thể ảnh hưởng đến hướng sinh trưởng của thân cây”. Học sinh đang",
       "options": [
-        "Thực nghiệm khoa học.",
-        "Lai hữu tính.",
-        "Quan sát.",
-        "Phân tích trình tự DNA."
+        "báo cáo kết quả.",
+        "tiến hành thí nghiệm.",
+        "xây dựng giả thuyết.",
+        "xử lí số liệu."
       ],
       "key": "C",
-      "explanation": "Học sinh ghi nhận đặc điểm sẵn có, không chủ động thay đổi yếu tố tác động."
+      "explanation": "Lời dự đoán có thể kiểm chứng là giả thuyết; học sinh chưa tác động vào điều kiện hay thu thập kết quả thử nghiệm."
     },
     {
-      "stem": "Cấp độ tổ chức nhỏ nhất biểu hiện đầy đủ các đặc trưng cơ bản của sự sống là",
+      "stem": "Tập hợp các cá thể cùng loài, sống trong một khoảng không gian và thời điểm xác định, có khả năng sinh sản tạo thế hệ mới là",
       "options": [
-        "phân tử.",
-        "tế bào.",
-        "bào quan.",
-        "nguyên tử."
+        "quần xã.",
+        "hệ sinh thái.",
+        "quần thể.",
+        "hệ cơ quan."
+      ],
+      "key": "C",
+      "explanation": "Quần thể gồm các cá thể cùng loài cùng tồn tại trong không gian, thời gian xác định và có quan hệ sinh sản."
+    },
+    {
+      "stem": "Khả năng duy trì trạng thái cân bằng động của hệ sống khi điều kiện môi trường thay đổi được gọi là",
+      "options": [
+        "đa dạng hóa.",
+        "tự điều chỉnh.",
+        "phân hóa mô.",
+        "tăng kích thước."
       ],
       "key": "B",
-      "explanation": "Tế bào là đơn vị cơ sở của sự sống."
+      "explanation": "Hệ sống có cơ chế tự điều chỉnh để duy trì cân bằng động."
     },
     {
-      "stem": "Tổ chức sống cấp dưới làm nền tảng hình thành tổ chức sống cấp trên. Đặc điểm này được gọi là",
+      "stem": "Nguyên tố tham gia cấu tạo phân tử diệp lục ở thực vật là",
       "options": [
-        "nguyên tắc thứ bậc.",
-        "nguyên tắc bổ sung.",
-        "sự tự điều chỉnh.",
-        "sự tiến hóa."
-      ],
-      "key": "A",
-      "explanation": "Nguyên tắc thứ bậc mô tả quan hệ tổ chức từ cấp dưới lên cấp trên."
-    },
-    {
-      "stem": "Nguyên tố tạo nên bộ khung của các hợp chất hữu cơ trong tế bào là",
-      "options": [
-        "oxygen.",
-        "hydrogen.",
-        "nitrogen.",
-        "carbon."
+        "iron (Fe).",
+        "iodine (I).",
+        "sodium (Na).",
+        "magnesium (Mg)."
       ],
       "key": "D",
-      "explanation": "Carbon tạo bộ khung đa dạng cho các hợp chất hữu cơ."
+      "explanation": "Mg là nguyên tố đa lượng có trong cấu trúc diệp lục."
     },
     {
-      "stem": "Nước có thể hòa tan nhiều chất phân cực và chất ion trong tế bào chủ yếu vì",
+      "stem": "Trùng giày chỉ gồm một tế bào nhưng vẫn dinh dưỡng, vận động, sinh trưởng và sinh sản. Điều này cho thấy",
       "options": [
-        "phân tử nước không mang tính phân cực.",
-        "nước là nguồn cung cấp năng lượng trực tiếp cho tế bào.",
-        "phân tử nước có tính phân cực, có thể tương tác với ion và các nhóm phân cực.",
-        "mọi chất có trong tế bào đều tan hoàn toàn trong nước."
+        "một tế bào có thể đảm nhiệm mọi hoạt động sống của cơ thể đơn bào.",
+        "cơ thể đơn bào không có hoạt động sống.",
+        "chỉ cơ thể đa bào mới được cấu tạo từ tế bào.",
+        "mỗi hoạt động của trùng giày do một cơ quan riêng thực hiện."
+      ],
+      "key": "A",
+      "explanation": "Ở cơ thể đơn bào, một tế bào vừa là đơn vị cấu tạo vừa thực hiện toàn bộ các chức năng sống của cơ thể."
+    },
+    {
+      "stem": "Loại base nitrogen có trong RNA nhưng không có trong DNA là",
+      "options": [
+        "adenine.",
+        "thymine.",
+        "uracil.",
+        "guanine."
       ],
       "key": "C",
-      "explanation": "Phân tử nước có tính phân cực nên có thể tương tác với ion và các nhóm phân cực của chất tan. Nước không phải nguồn cung cấp năng lượng và không hòa tan được mọi chất."
+      "explanation": "RNA có uracil (U); DNA có thymine (T)."
     },
     {
-      "stem": "Đơn phân cấu tạo nên protein là",
+      "stem": "DNA chỉ có bốn loại nucleotide nhưng vẫn lưu giữ được thông tin di truyền rất đa dạng chủ yếu vì",
       "options": [
-        "amino acid.",
-        "nucleotide.",
-        "glucose.",
-        "acid béo."
-      ],
-      "key": "A",
-      "explanation": "Các amino acid nối với nhau bằng liên kết peptide tạo chuỗi polypeptide."
-    },
-    {
-      "stem": "Một protein bị thay đổi cấu trúc không gian dù trình tự amino acid vẫn giữ nguyên. Protein đó có thể mất chức năng vì",
-      "options": [
-        "mọi liên kết peptide đã bị phá vỡ.",
-        "protein đã chuyển hoàn toàn thành lipid.",
-        "protein chỉ hoạt động khi tồn tại ở dạng mạch thẳng.",
-        "chức năng của protein phụ thuộc vào cấu trúc không gian đặc thù."
-      ],
-      "key": "D",
-      "explanation": "Cấu trúc không gian phù hợp là điều kiện để protein thực hiện chức năng."
-    },
-    {
-      "stem": "Nhỏ Lugol vào dịch khoai tây ở nhiệt độ phòng thấy xuất hiện màu xanh tím. Từ kết quả này có thể kết luận mẫu có",
-      "options": [
-        "glucose.",
-        "tinh bột.",
-        "protein.",
-        "lipid."
+        "mọi DNA đều có cùng trình tự nucleotide.",
+        "số lượng và trình tự nucleotide có thể rất khác nhau.",
+        "mỗi nucleotide chứa nhiều loại amino acid.",
+        "DNA được cấu tạo từ các phân tử lipid."
       ],
       "key": "B",
-      "explanation": "Lugol tạo màu xanh tím/xanh đen với tinh bột."
+      "explanation": "Sự đa dạng về số lượng và đặc biệt trình tự nucleotide tạo ra khả năng mã hóa thông tin đa dạng."
     },
     {
-      "stem": "Thử hai mẫu X và Y bằng phản ứng Biuret đúng quy trình: X chuyển tím, Y không chuyển tím. Kết luận phù hợp nhất là",
+      "stem": "Khi thử Biuret, cả ống chứa mẫu và ống đối chứng nước cất đều chuyển tím. Xử lí phù hợp nhất là",
       "options": [
-        "Y chắc chắn chỉ chứa nước.",
-        "Cả X và Y đều không có protein.",
-        "X có protein; chưa phát hiện protein ở Y bằng phép thử này.",
-        "X chỉ chứa amino acid tự do."
+        "kết luận nước cất luôn chứa protein.",
+        "kết luận mẫu không có protein.",
+        "bỏ ống đối chứng và giữ kết luận.",
+        "lặp lại với dụng cụ sạch, thuốc thử và đối chứng phù hợp."
       ],
-      "key": "C",
-      "explanation": "Màu tím là kết quả dương tính. Âm tính không đủ để kết luận mẫu chỉ có nước."
+      "key": "D",
+      "explanation": "Đối chứng nước cất lẽ ra không chuyển tím. Kết quả này gợi ý nhiễm bẩn hoặc sai quy trình nên cần kiểm tra và lặp lại, chưa được kết luận về mẫu."
+    },
+    {
+      "stem": "Thử riêng hai mẫu X, Y đúng quy trình: X chuyển xanh tím với Lugol; Y cho kết tủa đỏ gạch với Benedict khi đun nóng. Kết luận phù hợp là",
+      "options": [
+        "X có tinh bột; Y có đường khử.",
+        "X chỉ có protein; Y chỉ có lipid.",
+        "cả X và Y đều chỉ chứa nước.",
+        "X có đường khử; Y có tinh bột."
+      ],
+      "key": "A",
+      "explanation": "Lugol cho màu xanh tím với tinh bột; Benedict khi đun nóng nhận biết đường khử. Không đủ cơ sở kết luận mỗi mẫu chỉ chứa một chất."
     }
   ],
   "tf": [
     {
-      "stem": "Để khảo sát ảnh hưởng của lượng nước tưới đến sinh trưởng của đậu xanh, học sinh chia ngẫu nhiên các cây cùng giống, cùng tuổi và kích thước gần nhau thành hai nhóm. Mỗi nhóm có 10 cây trồng riêng, cùng đất và ánh sáng; nhóm A được tưới 20 mL/cây/ngày, nhóm B được tưới 40 mL/cây/ngày trong 10 ngày. Các điều kiện khác được giữ như nhau.",
+      "stem": "Ba nhóm cây cùng giống, tuổi và kích thước gần nhau được chiếu sáng 6, 12 hoặc 18 giờ/ngày; các điều kiện khác như nhau, mỗi nhóm 10 cây. Sau 14 ngày, khối lượng khô trung bình như hình.",
+      "figure": {
+        "src": "images/b1_light.svg",
+        "alt": "Biểu đồ khối lượng khô: chiếu sáng 6, 12, 18 giờ mỗi ngày lần lượt đạt 1,2; 2,0; 2,1 g/cây.",
+        "caption": "Sơ đồ / số liệu mô phỏng dùng cho bài tập."
+      },
       "items": [
         {
-          "text": "Thực nghiệm khoa học là phương pháp chủ động thay đổi điều kiện để nghiên cứu tác động của chúng.",
+          "text": "Giả thuyết khoa học có thể được kiểm chứng.",
           "key": "D",
-          "explanation": "Đây là đặc điểm của phương pháp thực nghiệm khoa học."
+          "explanation": "Giả thuyết là lời giải thích dự kiến có thể được kiểm chứng."
         },
         {
-          "text": "Trong thí nghiệm này, lượng nước tưới là yếu tố được chủ động thay đổi.",
+          "text": "Khối lượng khô là yếu tố được chủ động thay đổi.",
+          "key": "S",
+          "explanation": "Thời gian chiếu sáng là yếu tố được chủ động thay đổi; khối lượng khô trung bình là kết quả dùng đánh giá sinh trưởng."
+        },
+        {
+          "text": "Theo số liệu, khi giới hạn chiếu sáng 12 giờ/ngày, nên chọn 12 thay 6 giờ để tăng khối lượng khô.",
           "key": "D",
-          "explanation": "Hai nhóm khác nhau ở lượng nước tưới mỗi ngày."
+          "explanation": "Trong giới hạn tối đa 12 giờ/ngày, hai lựa chọn đang có là 6 giờ và 12 giờ; khối lượng khô tương ứng 1,2 và 2,0 g/cây. Chọn 12 giờ phù hợp mục tiêu tăng khối lượng khô theo số liệu đã đo. Không suy rộng thành kết luận tối ưu cho mọi cây hay mọi điều kiện."
         },
         {
-          "text": "Đặt nhóm A trong tối, nhóm B ngoài sáng sẽ giúp xác định riêng tác động của lượng nước tưới chính xác hơn.",
+          "text": "Lặp lại bằng cây to nhất ở 18 giờ, nhỏ nhất ở 6 giờ giúp tăng độ tin cậy.",
           "key": "S",
-          "explanation": "Thay đổi thêm ánh sáng gây nhiễu, không tách được tác động riêng của nước."
-        },
-        {
-          "text": "Nếu nhóm B tăng chiều cao nhiều hơn nhóm A, có thể kết luận mọi loài cây đều sinh trưởng tốt hơn khi tưới 40 mL/cây/ngày.",
-          "key": "S",
-          "explanation": "Kết luận vượt quá loài, điều kiện và khoảng lượng nước đã khảo sát."
+          "explanation": "Chọn cây ban đầu khác nhau theo nhóm gây sai lệch, làm tác động của kích thước ban đầu lẫn với tác động của thời gian chiếu sáng."
         }
       ]
     },
     {
-      "stem": "Khi ôn tập về lipid và ứng dụng trong chế biến thực phẩm, một nhóm học sinh đưa ra các nhận định sau:",
+      "stem": "Các mẫu enzyme X có bản chất protein, cùng nồng độ, pH và lượng cơ chất được xử lí như hình. Hoạt tính tương đối được đo ở nhiệt độ ghi dưới mỗi cột.",
+      "figure": {
+        "src": "images/b2_enzyme.svg",
+        "alt": "Hoạt tính A ở 25 độ C: 100%; B ở 5 độ C: 20%; C làm lạnh 5 độ rồi đưa về 25 độ: 100%; D đun 100 độ C trong 5 phút rồi đưa về 25 độ: 0%.",
+        "caption": "Sơ đồ / số liệu mô phỏng dùng cho bài tập."
+      },
       "items": [
         {
-          "text": "Một phân tử triglyceride gồm một phân tử glycerol liên kết với ba acid béo.",
-          "key": "D",
-          "explanation": "Đây là cấu tạo của triglyceride (dầu, mỡ)."
-        },
-        {
-          "text": "Lipid có cấu trúc theo nguyên tắc đa phân giống protein.",
+          "text": "Đơn phân của enzyme X là nucleotide.",
           "key": "S",
-          "explanation": "Lipid không được cấu tạo theo nguyên tắc đa phân như protein."
+          "explanation": "Enzyme X có bản chất protein nên đơn phân là amino acid, không phải nucleotide."
         },
         {
-          "text": "Khi trộn dầu với nước làm sốt salad, dầu tách lớp vì dầu có tính kị nước.",
+          "text": "Chuỗi amino acid của X có các liên kết peptide.",
           "key": "D",
-          "explanation": "Vận dụng tính kị nước của dầu để giải thích hiện tượng thực tế."
+          "explanation": "Liên kết peptide nối các amino acid trong chuỗi polypeptide."
         },
         {
-          "text": "Nếu khẩu phần đã đủ carbohydrate thì có thể loại bỏ hoàn toàn lipid mà vẫn bảo đảm mọi vai trò sinh học của lipid.",
+          "text": "Mẫu C cho thấy tác động của 5 °C lên X có thể đảo ngược.",
+          "key": "D",
+          "explanation": "Mẫu ở 5 °C còn 20% hoạt tính, sau đưa về 25 °C đạt 100%; có thể phục hồi tác động của làm lạnh trong điều kiện đang xét. Không suy rộng cho mọi enzyme."
+        },
+        {
+          "text": "Nên đun X ở 100 °C rồi làm nguội để tăng hiệu quả dùng X.",
           "key": "S",
-          "explanation": "Carbohydrate không thay thế toàn bộ vai trò cấu tạo màng và các vai trò khác của lipid."
+          "explanation": "Mẫu D mất hoạt tính sau đun nóng rồi làm nguội, nên cách xử lí đó không phù hợp để tăng hiệu quả dùng X."
         }
       ]
     }
   ],
   "short": [
     {
-      "stem": "Cho sơ đồ các cấp tổ chức cơ bản: tế bào → cơ thể → (X) → quần xã → hệ sinh thái. Đối chiếu các mô tả: (1) một cây lúa; (2) tế bào lá lúa; (3) tập hợp các cây lúa cùng loài sống trên một thửa ruộng, cùng thời điểm. Mô tả số mấy tương ứng với X?",
-      "key": "3",
-      "explanation": "X là quần thể; mô tả (3) phù hợp."
+      "stem": "Quan sát bốn sơ đồ về cùng một ao, cùng thời điểm. Chọn các phát biểu đúng.\n(1) I biểu diễn một quần thể.\n(2) II biểu diễn một quần thể cá rô phi.\n(3) III biểu diễn quần xã trong ao.\n(4) IV biểu diễn một hệ sinh thái.",
+      "kind": "selection",
+      "figure": {
+        "src": "images/c1_levels.svg",
+        "alt": "I: một cá rô phi; II: các cá rô phi cùng ao; III: các loài trong ao; IV: các loài trong ao cùng nước, đất, ánh sáng, xét cùng thời điểm.",
+        "caption": "Sơ đồ / số liệu mô phỏng dùng cho bài tập."
+      },
+      "key": "234",
+      "explanation": "I là một cơ thể; II gồm các cá rô phi cùng ao, cùng thời điểm (quần thể); III gồm các loài sinh vật trong ao (quần xã); IV có quần xã cùng môi trường vô sinh (hệ sinh thái)."
     },
     {
-      "stem": "Cho các cấp tổ chức: phân tử, bào quan, mô, cơ quan và hệ cơ quan. Có bao nhiêu cấp trong danh sách được hình thành từ sự tổ chức của các tế bào?",
-      "key": "3",
-      "explanation": "Ba cấp: mô, cơ quan, hệ cơ quan. Phân tử và bào quan là thành phần dưới cấp tế bào."
+      "stem": "Xét sơ đồ: tế bào thần kinh → mô thần kinh → não → hệ thần kinh. Chọn các phát biểu đúng.\n(1) Mô thần kinh được cấu tạo từ các tế bào.\n(2) Não là cấp tổ chức thấp hơn mô thần kinh.\n(3) Các cấp trong sơ đồ có quan hệ cấu tạo với nhau.\n(4) Mỗi cấp tồn tại hoàn toàn độc lập với cấp khác.",
+      "kind": "selection",
+      "figure": null,
+      "key": "13",
+      "explanation": "Tế bào tổ chức thành mô, các mô tạo nên cơ quan, các cơ quan phối hợp trong hệ cơ quan; các cấp có quan hệ, không tồn tại hoàn toàn độc lập."
     },
     {
-      "stem": "Một phân tử nước có bao nhiêu nguyên tử hydrogen?",
-      "key": "2",
-      "explanation": "Công thức H₂O cho biết có 2 nguyên tử hydrogen."
+      "stem": "Chọn các phát biểu đúng về carbon trong tế bào.\n(1) Có thể tạo bốn liên kết cộng hóa trị.\n(2) Tham gia tạo bộ khung của hợp chất hữu cơ.\n(3) Chỉ có trong tế bào động vật.\n(4) Là nguyên tố vi lượng.",
+      "kind": "selection",
+      "figure": null,
+      "key": "12",
+      "explanation": "Carbon có bốn electron hóa trị, có thể tạo bốn liên kết cộng hóa trị và bộ khung của các hợp chất hữu cơ; là nguyên tố đa lượng, không riêng tế bào động vật."
     },
     {
-      "stem": "Cho các nguyên tố C, H, O, N, Fe và I. Có bao nhiêu nguyên tố trong danh sách thuộc nhóm nguyên tố đa lượng trong cơ thể người?",
-      "key": "4",
-      "explanation": "Bốn nguyên tố đa lượng: C, H, O, N. Fe và I thuộc nhóm vi lượng."
+      "stem": "Chọn các vai trò của nước trong tế bào.\n(1) Cung cấp trực tiếp năng lượng cho tế bào.\n(2) Là môi trường của nhiều phản ứng sinh hóa.\n(3) Góp phần điều hòa nhiệt độ.\n(4) Tham gia cấu tạo tế bào.",
+      "kind": "selection",
+      "figure": null,
+      "key": "234",
+      "explanation": "Nước là môi trường của nhiều phản ứng, góp phần điều hòa nhiệt và tham gia cấu tạo tế bào; không cung cấp trực tiếp năng lượng."
     },
     {
-      "stem": "Phospholipid có đầu ưa nước và đuôi kị nước. Với một lớp kép phospholipid tiếp xúc với nước ở cả hai phía, có bao nhiêu nhận định sau đúng?\n(1) Các đầu ưa nước hướng về phía nước.\n(2) Các đuôi kị nước hướng vào nhau.\n(3) Các đuôi kị nước hướng ra ngoài để tiếp xúc tối đa với nước.\n(4) Cấu tạo có hai vùng khác nhau góp phần tạo nên lớp kép.",
-      "key": "3",
-      "explanation": "Đúng: (1), (2), (4). Ý (3) trái với đặc tính kị nước."
+      "stem": "Hình mô tả khái quát hai polysaccharide. Chọn các phát biểu đúng.\n(1) Cả I và II đều được cấu tạo từ glucose.\n(2) I phân nhánh, phù hợp với vai trò dự trữ năng lượng.\n(3) II có chức năng chủ yếu là xúc tác phản ứng.\n(4) Các chuỗi II liên kết thành bó, phù hợp chức năng cấu trúc.",
+      "kind": "selection",
+      "figure": {
+        "src": "images/c5_polymers.svg",
+        "alt": "I: glycogen có chuỗi glucose phân nhánh; II: cellulose có chuỗi glucose thẳng xếp song song và có liên kết giữa các chuỗi.",
+        "caption": "Sơ đồ / số liệu mô phỏng dùng cho bài tập."
+      },
+      "key": "124",
+      "explanation": "Glycogen và cellulose đều là polymer glucose. Glycogen phân nhánh là chất dự trữ; cellulose có các chuỗi thẳng liên kết thành bó sợi, tham gia cấu trúc thành tế bào thực vật, không là enzyme."
     },
     {
-      "stem": "Cho ba nhận định về quan hệ cấu tạo và chức năng của protein:\n(1) Chỉ cần có cùng số lượng amino acid thì hai protein luôn có cùng chức năng.\n(2) Cấu trúc không gian phù hợp giúp protein thực hiện chức năng đặc thù.\n(3) Protein bị phá vỡ cấu trúc không gian luôn giữ nguyên chức năng ban đầu.\nCó bao nhiêu nhận định đúng?",
-      "key": "1",
-      "explanation": "Chỉ (2) đúng. Cùng số amino acid chưa bảo đảm cùng trình tự, cấu trúc và chức năng."
+      "stem": "Chọn các nhận xét đúng về quan hệ cấu tạo và chức năng của protein.\n(1) Cấu trúc đặc thù giúp hemoglobin vận chuyển oxygen.\n(2) Cấu trúc đặc thù giúp kháng thể nhận biết kháng nguyên.\n(3) Enzyme chỉ có vai trò lưu giữ thông tin di truyền.\n(4) Khác trình tự và cấu trúc có thể dẫn đến khác chức năng.",
+      "kind": "selection",
+      "figure": null,
+      "key": "124",
+      "explanation": "Hemoglobin vận chuyển oxygen, kháng thể nhận biết kháng nguyên, enzyme xúc tác phản ứng; các chức năng liên quan đến cấu trúc đặc thù. Khác trình tự/cấu trúc có thể dẫn đến khác chức năng."
     },
     {
-      "stem": "Khi luộc trứng, lòng trắng chuyển từ dạng lỏng sang khối trắng đục. Có bao nhiêu giải thích sau phù hợp?\n(1) Nhiệt độ cao làm protein biến tính.\n(2) Toàn bộ protein đã bị thủy phân thành amino acid tự do.\n(3) Cấu trúc không gian của protein bị thay đổi.\n(4) Protein đã chuyển thành tinh bột.",
-      "key": "2",
-      "explanation": "Đúng: (1), (3). Đông tụ không đồng nghĩa thủy phân hoàn toàn; protein không biến thành tinh bột."
+      "stem": "Hai suất ăn có thành phần như hình. Biết 1 g lipid cung cấp khoảng 9 kcal. Cần giảm năng lượng từ lipid mà vẫn giữ lượng protein và carbohydrate. Chọn các nhận xét phù hợp.\n(1) Chọn A thay B đáp ứng mục tiêu đã nêu.\n(2) Đổi B sang A giảm khoảng 63 kcal từ lipid.\n(3) Suất A có ít protein hơn suất B.\n(4) Có thể bỏ mọi lipid vì chúng chỉ cung cấp năng lượng.",
+      "kind": "selection",
+      "figure": {
+        "src": "images/c7_meals.svg",
+        "alt": "Suất A có 5 g lipid, 18 g protein, 25 g carbohydrate; suất B có 12 g lipid, 18 g protein, 25 g carbohydrate.",
+        "caption": "Sơ đồ / số liệu mô phỏng dùng cho bài tập."
+      },
+      "key": "12",
+      "explanation": "A và B đều có 18 g protein, 25 g carbohydrate; lipid lần lượt 5 và 12 g. Đổi B sang A giảm (12−5)×9 = 63 kcal từ lipid, giữ nguyên hai nhóm chất kia. Lipid còn vai trò cấu trúc, dự trữ, hỗ trợ hấp thu vitamin tan trong lipid nên không nên loại bỏ hoàn toàn."
     },
     {
-      "stem": "Một học sinh cho rằng ăn nhiều tinh bột có thể thay thế hoàn toàn việc ăn thực phẩm giàu protein. Có bao nhiêu lí do sau bác bỏ được nhận định đó?\n(1) Tinh bột là nguồn cung cấp trực tiếp đầy đủ các amino acid thiết yếu.\n(2) Cơ thể cần nguồn amino acid để tổng hợp protein cấu trúc và enzyme.\n(3) Cơ thể không tự tổng hợp được một số amino acid nên phải nhận từ thức ăn.",
-      "key": "2",
-      "explanation": "Đúng: (2), (3). Tinh bột cung cấp glucose, không cung cấp trực tiếp amino acid thiết yếu."
+      "stem": "Hình mô phỏng một số vạch DNA của mẫu dấu vết V và ba người M, N, P. Chọn các nhận xét phù hợp khi xử lí kết quả này.\n(1) M trùng với V ở tất cả các vạch trong hình.\n(2) Chỉ từ hình này có thể khẳng định N đã phạm tội.\n(3) N trùng với V ở mọi vạch được biểu diễn.\n(4) Cần kiểm tra thêm mẫu và đối chiếu chứng cứ khác.",
+      "kind": "selection",
+      "figure": {
+        "src": "images/c8_dna.svg",
+        "alt": "Vị trí vạch từ trên xuống theo sáu hàng quy ước: V có các hàng 1, 2, 4, 6; M có 1, 3, 4, 6; N có 1, 2, 4, 6; P có 1, 2, 5, 6.",
+        "caption": "Sơ đồ / số liệu mô phỏng dùng cho bài tập."
+      },
+      "key": "34",
+      "explanation": "Trong mô hình, N trùng cả bốn vị trí của V; M, P có vạch khác. Kết quả mô phỏng ở một số vị trí chỉ hỗ trợ lựa chọn mẫu để kiểm tra tiếp, không tự chứng minh hành vi phạm tội."
     }
   ],
   "essay": [
-    "Giải thích mối quan hệ giữa tế bào, mô và cơ quan trong cơ thể đa bào; lấy một ví dụ minh họa sự phối hợp giữa các cấp đó.",
-    "Nêu thành phần cấu tạo và tính phân cực của phân tử nước; trình bày hai vai trò của nước trong tế bào.",
-    "Trong giám định huyết thống, người ta có thể lấy mẫu tế bào niêm mạc miệng để phân tích DNA. Giải thích vì sao mẫu này phù hợp và vì sao cần so sánh DNA của người con với DNA của người được xét quan hệ huyết thống."
+    "Vì sao cơ thể đa bào có đặc điểm nổi trội mà từng tế bào riêng lẻ không có? Minh họa bằng sự phối hợp các cấp tổ chức khi người vận động.",
+    "Nêu hai đặc điểm của nguyên tử carbon giúp tạo nên sự đa dạng của hợp chất hữu cơ. Kể tên ba dạng bộ khung carbon.",
+    "Một học sinh bỏ toàn bộ rau quả, tăng cơm và thịt để giữ nguyên năng lượng mỗi ngày và cho rằng khẩu phần vẫn cân đối. Em có đồng ý không? Dùng kiến thức về chất xơ và vitamin để giải thích, rồi đề xuất điều chỉnh."
   ]
 };

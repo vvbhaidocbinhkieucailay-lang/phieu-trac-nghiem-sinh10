@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="430" viewBox="0 0 600 430"><rect width="100%" height="100%" fill="white"/>
+<text x="300" y="25" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="30">Hoạt tính tương đối (%)</text>
+<polyline points="55,62 55,255 565,255" fill="none" stroke="black" stroke-width="2"/>
+<rect x="88" y="95.0" width="64" height="160.0" fill="#d8d8d8" stroke="black" stroke-width="2"/>
+<text x="120" y="74.0" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold">100</text>
+<text x="120" y="281" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold">A</text>
+<rect x="221" y="223.0" width="64" height="32.0" fill="#d8d8d8" stroke="black" stroke-width="2"/>
+<text x="253" y="202.0" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold">20</text>
+<text x="253" y="281" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold">B</text>
+<rect x="354" y="95.0" width="64" height="160.0" fill="#d8d8d8" stroke="black" stroke-width="2"/>
+<text x="386" y="74.0" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold">100</text>
+<text x="386" y="281" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold">C</text>
+<text x="519" y="234.0" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold">0</text>
+<text x="519" y="281" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold">D</text>
+<text x="300" y="323" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="28">A: 25 °C; B: 5 °C</text>
+<text x="300" y="360" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="28">C: 5 °C rồi về 25 °C</text>
+<text x="300" y="397" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="28">D: 100 °C (5 phút), về 25 °C</text>
+</svg>

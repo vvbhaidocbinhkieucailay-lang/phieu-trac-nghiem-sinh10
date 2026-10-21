@@ -1,49 +1,48 @@
-# Phiếu ôn tập Sinh học 10 · Mã 101
+# Phiếu ôn tập Sinh học 10 mã 103
 
-**[Mở phiếu làm bài](https://vvbhaidocbinhkieucailay-lang.github.io/phieu-trac-nghiem-sinh10/)**
+**[Mở phiếu mã 103](https://vvbhaidocbinhkieucailay-lang.github.io/phieu-trac-nghiem-sinh10/)**
 
-Trang ôn tập được lưu trên GitHub Pages. Học sinh có Internet mở link bằng điện thoại hoặc máy tính; máy của giáo viên không cần bật. Không cần đăng nhập GitHub.
+GitHub Pages lưu trang để học sinh có Internet làm bài bằng điện thoại hoặc máy tính; máy giáo viên không cần bật. Không cần đăng nhập GitHub.
 
-## Cấu trúc và chấm điểm
+## Cấu trúc
 
 | Phần | Số lượng | Điểm |
 |---|---|---|
 | A · Một đáp án A–D | 12 câu × 0,25 | 3 |
 | B · Đúng–sai | 2 câu, mỗi câu 4 ý × 0,25 | 2 |
-| C · Trả lời ngắn | 8 câu × 0,25 | 2 |
+| C · Chọn các ý đúng, ghi số thứ tự | 8 câu × 0,25 | 2 |
 | II · Tự luận | 3 câu × 1 | Giáo viên chấm riêng 3 điểm |
 
-Điểm tự động hiển thị **trên 7**, không quy đổi thành điểm trên 10. Phần đúng–sai chấm từng ý độc lập, không dùng thang lũy tiến. Thời gian gợi ý 45 phút; không tự khóa khi hết giờ.
+Tự chấm **trên 7**, đúng–sai chấm từng ý độc lập. Thời gian gợi ý 45 phút, không tự khóa khi hết giờ. Nhận biết 4 điểm, thông hiểu 3 điểm, vận dụng 3 điểm. Điểm Bài 1–6: 0,5; 1,5; 2; 2; 3,5; 0,5.
 
-## Học sinh sử dụng
+## Nội dung và nguồn
 
-1. Mở link, nhập thông tin bài làm nếu muốn.
-2. Chọn đáp án trong ô tròn; câu ngắn có thể gõ số hoặc mở **Tô từng chữ số**. Bốn cột hỗ trợ chữ số, dấu âm và dấu phẩy thập phân. Đề 101 hiện dùng số nguyên dương.
-3. Bấm **Nộp bài và xem điểm**. Bài thiếu câu sẽ có thông báo trước khi nộp.
-4. Xem đáp án, giải thích; tải kết quả dạng văn bản hoặc in/lưu PDF. Có thể làm lại để luyện tập.
+Câu hỏi, tình huống khác mã 101–102; biên soạn từ ngân hàng Sinh học 10 giữa học kì I năm 2026–2027 và đối chiếu ma trận, bảng đặc tả. Sáu hình mới: thời gian chiếu sáng, hoạt tính enzyme, cấp độ tổ chức sống, polysaccharide, suất ăn và vạch DNA. Hình/số liệu là mô hình giả định phục vụ bài tập, không phải kết quả nghiên cứu thực nghiệm công bố.
 
-Chọn **Hiện nội dung câu hỏi** để chuyển giữa bài có câu hỏi và phiếu tô gọn.
+Cả 8 câu C yêu cầu **ghi liền số thứ tự các ý đúng theo thứ tự tăng dần**, ví dụ `134`; không ghi `3` để biểu thị số lượng ý đúng. Không dùng dấu âm, dấu phẩy, số lặp hay thứ tự đảo. Bốn cột tô số đồng bộ với ô nhập. Mỗi câu có 4 ý đánh số 1–4; đúng định dạng chưa có nghĩa là đúng đáp án.
 
-## Lưu bài và phạm vi
+Bảng đặc tả xếp A.8 ở Bài 4/TH với yêu cầu giải thích tế bào là đơn vị cấu trúc và chức năng, dù tên chủ đề là nguyên tố hóa học và nước. Mã 103 theo yêu cầu cụ thể này. Ghi chú trước đây suy từ tên chủ đề để đổi A.8 sang nước là chưa đầy đủ; không dùng suy luận đó để ra đề mới.
 
-Bài làm tự lưu trong trình duyệt trên thiết bị học sinh. Đổi thiết bị, xóa dữ liệu trình duyệt hoặc dùng chế độ riêng tư có thể làm mất tiến độ. Trang **chưa gửi bài hay điểm về giáo viên**, chưa có bảng điểm chung. Học sinh có thể tải bản kết quả để gửi bằng kênh giáo viên quy định.
+**[Bản 101 lưu riêng để tham khảo lịch sử](https://vvbhaidocbinhkieucailay-lang.github.io/phieu-trac-nghiem-sinh10/ma-101/)** giữ nội dung đã xuất bản trước, không tự đổi thành 103.
 
-Đây là bản ôn tập: đáp án nằm trong mã nguồn công khai và lời giải xuất hiện sau nộp. Không dùng làm hệ thống kiểm tra cần giữ bí mật đáp án. Phần tự luận được lưu cùng bài làm nhưng không chấm tự động.
+## Sử dụng và lưu bài
 
-## Nguồn và hiệu chỉnh nội dung
+1. Mở link, nhập thông tin nếu muốn, làm các câu A–D, đúng–sai và đọc hình để trả lời phần C.
+2. Bấm **Nộp bài và xem điểm**; trang nhắc nếu thiếu, chặn chuỗi C sai định dạng.
+3. Xem đáp án, giải thích; tải kết quả văn bản hoặc in/lưu PDF; có thể làm lại.
 
-Hình thức dựa trên phiếu giấy “12 2 8 tự luận phách.pdf”. Giữ các phần đáp án; bỏ số phách, chữ ký và dấu định vị quét giấy khi chuyển sang trực tuyến.
+Bài làm lưu trong trình duyệt học sinh, khóa lưu riêng cho mã 103. Đổi thiết bị, xóa dữ liệu hoặc dùng chế độ riêng tư có thể mất tiến độ. Trang **chưa tự gửi bài/điểm về giáo viên**, chưa có bảng điểm chung. Có thể tải kết quả để gửi theo kênh giáo viên quy định.
 
-Nội dung dựa trên đề ôn tập Sinh học 10 mã 101 và đáp án đã duyệt trong dự án; cấu trúc theo ma trận giữa học kì I năm 2026–2027. Bản trực tuyến ngày 21/10/2026 chỉnh **A.8** từ kiến thức về tế bào sang tính phân cực và vai trò dung môi của nước, đúng vị trí Bài 4/Thông hiểu trong ma trận. Đáp án vẫn là **C**, lời giải đã cập nhật. Các tệp Word mẫu được giữ nguyên; khi in lại đề cần đồng bộ hiệu chỉnh này.
+Đây là bản ôn tập: đáp án trong mã nguồn công khai, lời giải hiện sau nộp. Tự luận lưu cùng bài làm nhưng không chấm tự động.
 
 ## Cập nhật và kiểm tra
 
-- `exam-data.js`: câu hỏi, đáp án, giải thích.
-- `scoring.js`: kiểm tra số và chấm điểm.
-- `app.js`: tương tác, lưu bài và xuất kết quả.
-- `index.html`, `style.css`: giao diện.
-- Chạy `node test-scoring.cjs` để kiểm tra chấm đúng, chấm trắng, điểm độc lập từng ý, số âm/thập phân và cột bỏ trống.
-- Xem thử bằng máy chủ HTTP, ví dụ `python -m http.server 8000`, rồi mở địa chỉ máy chủ trên máy đang chạy.
-- Khi đổi mã đề hoặc nội dung đáp án, đổi đồng bộ mã hiển thị và khóa lưu bài trong `app.js` để không dùng nhầm lượt làm cũ.
+- `exam-data.js`: nội dung, đáp án, giải thích, mô tả hình.
+- `images/`: sáu hình SVG.
+- `scoring.js`: kiểm tra số/chuỗi chọn ý, chấm điểm.
+- `app.js`: tương tác, lưu, xuất kết quả.
+- `index.html`, `style.css`: giao diện; `ma-101/`: bản 101 dùng khóa và tệp cũ.
 
-GitHub Pages xuất bản từ nhánh `main`, thư mục gốc `/`. Cập nhật tệp và đẩy commit lên `main`; chờ tác vụ Pages hoàn tất. Tệp `.nojekyll` giữ cách phục vụ trang tĩnh. Không có dịch vụ máy chủ của giáo viên hoặc thư viện bên ngoài cần chạy kèm.
+Chạy `node test-scoring.cjs`: kiểm tra 7/7, bài trắng, từng ý đúng–sai, chuỗi tăng dần, nhầm số lượng, đảo/lặp/thập phân/cột trống. Xem thử qua HTTP, kiểm tra hình trên điện thoại và máy tính. Đổi đề phải đổi mã, khóa lưu và phiên bản đường dẫn CSS/JS để lấy tệp mới.
+
+GitHub Pages xuất bản từ nhánh `main`, thư mục gốc `/`. Đẩy commit, chờ Pages hoàn tất và kiểm tra link công khai. Không cần chạy máy chủ của giáo viên.

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="320" viewBox="0 0 600 320"><rect width="100%" height="100%" fill="white"/>
+<text x="95" y="28" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold">V</text>
+<rect x="46" y="58" width="98" height="234" fill="white" stroke="black" stroke-width="2"/>
+<polyline points="63,88 127,88" fill="none" stroke="black" stroke-width="7"/>
+<polyline points="63,132 127,132" fill="none" stroke="black" stroke-width="7"/>
+<polyline points="63,198 127,198" fill="none" stroke="black" stroke-width="7"/>
+<polyline points="63,263 127,263" fill="none" stroke="black" stroke-width="7"/>
+<text x="233" y="28" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold">M</text>
+<rect x="184" y="58" width="98" height="234" fill="white" stroke="black" stroke-width="2"/>
+<polyline points="201,88 265,88" fill="none" stroke="black" stroke-width="7"/>
+<polyline points="201,152 265,152" fill="none" stroke="black" stroke-width="7"/>
+<polyline points="201,198 265,198" fill="none" stroke="black" stroke-width="7"/>
+<polyline points="201,263 265,263" fill="none" stroke="black" stroke-width="7"/>
+<text x="371" y="28" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold">N</text>
+<rect x="322" y="58" width="98" height="234" fill="white" stroke="black" stroke-width="2"/>
+<polyline points="339,88 403,88" fill="none" stroke="black" stroke-width="7"/>
+<polyline points="339,132 403,132" fill="none" stroke="black" stroke-width="7"/>
+<polyline points="339,198 403,198" fill="none" stroke="black" stroke-width="7"/>
+<polyline points="339,263 403,263" fill="none" stroke="black" stroke-width="7"/>
+<text x="509" y="28" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold">P</text>
+<rect x="460" y="58" width="98" height="234" fill="white" stroke="black" stroke-width="2"/>
+<polyline points="477,88 541,88" fill="none" stroke="black" stroke-width="7"/>
+<polyline points="477,132 541,132" fill="none" stroke="black" stroke-width="7"/>
+<polyline points="477,218 541,218" fill="none" stroke="black" stroke-width="7"/>
+<polyline points="477,263 541,263" fill="none" stroke="black" stroke-width="7"/>
+</svg>

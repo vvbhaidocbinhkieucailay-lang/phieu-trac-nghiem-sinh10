@@ -2,7 +2,7 @@
   'use strict';
   const exam = window.EXAM, engine = window.PHIEU;
   const $ = id => document.getElementById(id);
-  const STORAGE = 'sinh10-101-128-v1';
+  const STORAGE = 'sinh10-103-selection-v1';
   const blank = () => ({ mc:Array(12).fill(''), tf:[Array(4).fill(''),Array(4).fill('')], short:Array.from({length:8},()=>Array(4).fill('')), essay:Array(3).fill(''), name:'', className:'', studentId:'', prompts:true, submitted:false, submittedAt:'' });
   const clean = raw => {
     const s = blank();
@@ -21,6 +21,12 @@
   try {state=clean(JSON.parse(localStorage.getItem(STORAGE)));} catch {storageWorks=false;}
   function save(){try{localStorage.setItem(STORAGE,JSON.stringify(state));storageWorks=true;}catch{storageWorks=false;}$('save-status').textContent=storageWorks?'Đã lưu trên thiết bị này':'Không tự lưu được; hãy giữ trang mở';}
   function node(tag,text,cls){const el=document.createElement(tag);if(text!==undefined)el.textContent=text;if(cls)el.className=cls;return el;}
+  function addFigure(parent,q){
+    if(!q.figure)return;
+    const f=node('figure',undefined,'question-figure prompt'),img=node('img');
+    img.src=q.figure.src;img.alt=q.figure.alt;img.loading='lazy';img.decoding='async';f.append(img);
+    if(q.figure.caption)f.append(node('figcaption',q.figure.caption));parent.append(f);
+  }
   function choice(name,value,checked,labelText,spoken,handler,showLetter=true){
     const label=node('label',undefined,'choice');const input=node('input');input.type='radio';input.name=name;input.value=value;input.checked=checked;input.setAttribute('aria-label',spoken);
     const bubble=node('span',showLetter?value:'','bubble');bubble.setAttribute('aria-hidden','true');label.append(input,bubble);
@@ -38,6 +44,7 @@
     });
     exam.tf.forEach((q,i)=>{
       const card=node('div',undefined,'question');card.append(node('h3',`Câu ${i+1}`,'tf-title'),node('p',q.stem,'prompt'));
+      addFigure(card,q);
       const header=node('div',undefined,'tf-header');header.append(node('span','Nhận định'),node('span','Đúng'),node('span','Sai'));card.append(header);
       q.items.forEach((item,j)=>{
         const row=node('div',undefined,'tf-row');row.setAttribute('role','group');row.setAttribute('aria-label',`Phần B câu ${i+1}, ý ${'abcd'[j]}`);
@@ -49,16 +56,16 @@
     exam.short.forEach((q,i)=>{
       const card=node('article',undefined,'question short-card');card.id=`short-card-${i}`;
       const title=node('div',undefined,'short-title');title.append(node('h3',`Câu ${i+1}`));
-      const input=node('input',undefined,'short-answer');input.type='text';input.id=`short-${i}`;input.maxLength=4;input.inputMode='decimal';input.autocomplete='off';input.placeholder='…';input.setAttribute('aria-label',`Phần C câu ${i+1}, kết quả`);input.setAttribute('aria-describedby',`short-error-${i}`);
+      const input=node('input',undefined,'short-answer');input.type='text';input.id=`short-${i}`;input.maxLength=4;input.inputMode=q.kind==='selection'?'numeric':'decimal';input.autocomplete='off';input.placeholder='…';input.setAttribute('aria-label',`Phần C câu ${i+1}, kết quả`);input.setAttribute('aria-describedby',`short-error-${i}`);
       input.addEventListener('input',()=>{
         if(state.submitted)return;
         const text=input.value.replace(/\./g,',');input.value=text;state.short[i]=Array.from({length:4},(_,j)=>text[j]||'');syncDigits(i,false);updateProgress();save();
-      });title.append(input);card.append(title,node('p',q.stem,'prompt'));
+      });title.append(input);card.append(title,node('p',q.stem,'prompt'));addFigure(card,q);
       const error=node('p','','answer-error');error.id=`short-error-${i}`;error.setAttribute('aria-live','polite');card.append(error);
       const details=node('details');details.append(node('summary','Tô từng chữ số'));
       const grid=node('div',undefined,'digit-grid');grid.append(node('span',''));
       for(let j=0;j<4;j++){const value=node('span','','digit-value');value.id=`digit-value-${i}-${j}`;value.setAttribute('aria-label',`Cột ${j+1}`);grid.append(value);}
-      ['-',',',...'0123456789'].forEach(ch=>{
+      (q.kind==='selection'?[...'0123456789']:['-',',',...'0123456789']).forEach(ch=>{
         grid.append(node('span',ch==='-'?'−':ch,'row-name'));
         for(let j=0;j<4;j++){
           if((ch==='-' && j!==0)||(ch===',' && j===0)){grid.append(node('span',''));continue;}
@@ -77,15 +84,15 @@
     togglePrompts();for(let i=0;i<8;i++)syncDigits(i,true);updateProgress();lock(state.submitted);
   }
   function syncDigits(i,writeInput){
-    const cols=state.short[i], parsed=engine.readColumns(cols);
+    const cols=state.short[i], parsed=engine.readAnswer(exam.short[i],cols);
     if(writeInput)$(`short-${i}`).value=cols.join('');
     for(let j=0;j<4;j++)$(`digit-value-${i}-${j}`).textContent=cols[j];
     $(`short-card-${i}`).querySelectorAll('.digit-btn').forEach(b=>b.setAttribute('aria-pressed',String(cols[Number(b.dataset.column)]===b.dataset.char)));
     $(`short-${i}`).setAttribute('aria-invalid',String(!parsed.empty&&!parsed.valid));
-    $(`short-error-${i}`).textContent=parsed.empty||parsed.valid?'':parsed.gap?'Có cột trống ở giữa. Hãy tô liền từ cột đầu.':'Số chưa hợp lệ. Ví dụ: 3, 12, −2 hoặc 1,5.';
+    $(`short-error-${i}`).textContent=parsed.empty||parsed.valid?'':parsed.gap?'Có cột trống ở giữa. Hãy tô liền từ cột đầu.':exam.short[i].kind==='selection'?'Chỉ ghi số thứ tự 1–4 tăng dần, không lặp; ví dụ: 134.':'Số chưa hợp lệ. Ví dụ: 3, 12, −2 hoặc 1,5.';
   }
   function updateProgress(){
-    const a=state.mc.filter(Boolean).length,b=state.tf.flat().filter(Boolean).length,c=state.short.filter(x=>engine.readColumns(x).valid).length;
+    const a=state.mc.filter(Boolean).length,b=state.tf.flat().filter(Boolean).length,c=state.short.filter((x,i)=>engine.readAnswer(exam.short[i],x).valid).length;
     $('count-a').textContent=`${a}/12`;$('count-b').textContent=`${b}/8 ý`;$('count-c').textContent=`${c}/8`;
     $('progress').value=a+b+c;$('progress-label').textContent=`Đã trả lời ${a+b+c}/28 câu và ý`;
     $('submit-status').textContent=state.submitted?'Bài làm đã được chấm':a+b+c===28?'Đã hoàn thành phần trắc nghiệm':`Còn ${28-a-b-c} câu / ý chưa trả lời`;
@@ -107,7 +114,7 @@
   function showResult(scroll){
     const r=engine.grade(exam,state);$('result').hidden=false;document.body.classList.add('has-result');
     $('total-score').textContent=format(r.total);
-    const who=[state.name||'Bài luyện tập',state.className?`Lớp ${state.className}`:'',state.studentId?`SBD ${state.studentId}`:'','Mã 101'].filter(Boolean).join(' · ');
+    const who=[state.name||'Bài luyện tập',state.className?`Lớp ${state.className}`:'',state.studentId?`SBD ${state.studentId}`:'','Mã 103'].filter(Boolean).join(' · ');
     $('result-person').textContent=who;$('result-summary').textContent=`Đúng ${r.correct}/28 câu và ý. ${28-Object.values(r.answered).reduce((a,b)=>a+b,0)} câu / ý bỏ trống.`;
     $('score-parts').replaceChildren();[['mc','A. Nhiều lựa chọn',12,3],['tf','B. Đúng–sai',8,2],['short','C. Trả lời ngắn',8,2]].forEach(([key,label,max,total])=>{
       const p=node('div');p.append(node('span',label),node('b',`${format(r.points[key])} / ${total}`),node('small',`${r.counts[key]}/${max} ${key==='tf'?'ý':'câu'} đúng`));$('score-parts').append(p);
@@ -129,8 +136,8 @@
   }
   $('answer-form').addEventListener('submit',async e=>{
     e.preventDefault();if(state.submitted)return;
-    const invalid=state.short.map((x,i)=>({i,p:engine.readColumns(x)})).filter(x=>!x.p.empty&&!x.p.valid);
-    if(invalid.length){$('form-error').hidden=false;$('form-error').textContent=`Kiểm tra câu trả lời ngắn ${invalid.map(x=>x.i+1).join(', ')}: cần nhập số hợp lệ, không có cột trống ở giữa.`;$(`short-${invalid[0].i}`).focus();return;}
+    const invalid=state.short.map((x,i)=>({i,p:engine.readAnswer(exam.short[i],x)})).filter(x=>!x.p.empty&&!x.p.valid);
+    if(invalid.length){$('form-error').hidden=false;$('form-error').textContent=`Kiểm tra câu trả lời ngắn ${invalid.map(x=>x.i+1).join(', ')}: cần ghi các số thứ tự 1–4 tăng dần, không lặp, không có cột trống ở giữa.`;$(`short-${invalid[0].i}`).focus();return;}
     $('form-error').hidden=true;const count=updateProgress();
     if(count<28 && !(await confirmAction('Nộp bài còn thiếu?',`Còn ${28-count} câu / ý chưa trả lời. Những câu này sẽ được 0 điểm.`, 'Vẫn nộp bài')))return;
     state.submitted=true;state.submittedAt=new Date().toISOString();save();lock(true);updateProgress();showResult(true);
@@ -147,8 +154,8 @@
   $('review').addEventListener('click',()=>{const c=$('review-content');c.hidden=!c.hidden;$('review').textContent=c.hidden?'Xem đáp án và giải thích':'Thu gọn lời giải';});
   $('print').addEventListener('click',()=>window.print());
   $('download').addEventListener('click',()=>{
-    const r=engine.grade(exam,state);const text=[`KẾT QUẢ ÔN TẬP SINH HỌC 10 — MÃ 101`, `Họ tên: ${state.name||'(chưa nhập)'}`,`Lớp: ${state.className||''} — SBD: ${state.studentId||''}`,`Thời điểm nộp: ${state.submittedAt?new Date(state.submittedAt).toLocaleString('vi-VN',{timeZone:'Asia/Ho_Chi_Minh'}):''}`,`Điểm trắc nghiệm: ${format(r.total)}/7`, `A: ${format(r.points.mc)}/3; B: ${format(r.points.tf)}/2; C: ${format(r.points.short)}/2.`,`Tự luận chưa chấm. Không phải tổng điểm trên 10.`,``,...r.rows.map(x=>`${x.id}: ${displayValue(x.value,x.section)} | Đáp án: ${displayValue(x.key,x.section)} | ${x.correct?'Đúng':'Chưa đúng'}`),``,...state.essay.map((x,i)=>`Tự luận ${i+1}:\n${x||'(chưa làm)'}`)].join('\n');
-    const blob=new Blob(['\uFEFF',text],{type:'text/plain;charset=utf-8'}),url=URL.createObjectURL(blob),a=node('a');a.href=url;a.download='Ket_qua_Sinh_hoc_10_Ma_101.txt';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+    const r=engine.grade(exam,state);const text=[`KẾT QUẢ ÔN TẬP SINH HỌC 10 — MÃ 103`, `Họ tên: ${state.name||'(chưa nhập)'}`,`Lớp: ${state.className||''} — SBD: ${state.studentId||''}`,`Thời điểm nộp: ${state.submittedAt?new Date(state.submittedAt).toLocaleString('vi-VN',{timeZone:'Asia/Ho_Chi_Minh'}):''}`,`Điểm trắc nghiệm: ${format(r.total)}/7`, `A: ${format(r.points.mc)}/3; B: ${format(r.points.tf)}/2; C: ${format(r.points.short)}/2.`,`Tự luận chưa chấm. Không phải tổng điểm trên 10.`,``,...r.rows.map(x=>`${x.id}: ${displayValue(x.value,x.section)} | Đáp án: ${displayValue(x.key,x.section)} | ${x.correct?'Đúng':'Chưa đúng'}`),``,...state.essay.map((x,i)=>`Tự luận ${i+1}:\n${x||'(chưa làm)'}`)].join('\n');
+    const blob=new Blob(['\uFEFF',text],{type:'text/plain;charset=utf-8'}),url=URL.createObjectURL(blob),a=node('a');a.href=url;a.download='Ket_qua_Sinh_hoc_10_Ma_103.txt';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
   });
   render();if(state.submitted)showResult(false);if(!storageWorks)$('save-status').textContent='Không tự lưu được; hãy giữ trang mở';
 })();

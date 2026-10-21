@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#145346">
+  <title>Phiếu trả lời Sinh học 10 · Mã 101</title>
+  <meta name="description" content="Phiếu ôn tập Sinh học 10 theo cấu trúc 12 câu lựa chọn, 2 câu đúng–sai, 8 câu ngắn. Xem điểm trắc nghiệm trên 7 ngay sau khi nộp bài.">
+  <link rel="stylesheet" href="style.css?v=20261021-2">
+  <script defer src="exam-data.js?v=20261021-2"></script>
+  <script defer src="scoring.js?v=20261021-2"></script>
+  <script defer src="app.js?v=20261021-2"></script>
+</head>
+<body>
+<header class="masthead"><div class="wrap brand"><a href="#top" class="wordmark">SINH HỌC <span>10</span></a><span>Ôn tập giữa học kì I · 2026–2027</span><span class="practice">Bản luyện tập</span></div></header>
+<main id="top" class="wrap">
+  <section class="intro">
+    <div><p class="eyebrow">PHIẾU TRẢ LỜI TRỰC TUYẾN</p><h1>Tô đáp án.<br><em>Xem mình đã hiểu đến đâu.</em></h1><p class="lead">12 câu lựa chọn · 2 câu đúng–sai · 8 câu trả lời ngắn.<br>Chấm ngay phần trắc nghiệm sau khi nộp bài.</p></div>
+    <div class="exam-stamp"><span>MÃ ĐỀ</span><strong>101</strong><span>45 phút gợi ý</span><b>Trắc nghiệm / 7 điểm</b></div>
+  </section>
+
+  <form id="answer-form" novalidate>
+    <fieldset class="student"><legend>Thông tin bài làm</legend><label>Họ và tên <span>(không bắt buộc)</span><input id="student-name" maxlength="80" autocomplete="off" placeholder="Nhập họ và tên"></label><label>Lớp<input id="student-class" maxlength="20" autocomplete="off" placeholder="Ví dụ: 10A1"></label><label>Số báo danh<input id="student-id" maxlength="20" autocomplete="off" placeholder="Nếu có"></label></fieldset>
+    <div class="workbar"><label class="switch"><input type="checkbox" id="show-prompts" checked> Hiện nội dung câu hỏi</label><span id="save-status">Bài làm tự lưu trên thiết bị này</span><button type="button" class="text-button" id="reset-top">Làm lại</button></div>
+    <nav class="section-nav" aria-label="Các phần của phiếu"><a href="#part-a"><span>A</span> Lựa chọn <b id="count-a">0/12</b></a><a href="#part-b"><span>B</span> Đúng–sai <b id="count-b">0/8 ý</b></a><a href="#part-c"><span>C</span> Trả lời ngắn <b id="count-c">0/8</b></a><a href="#essay">Tự luận</a></nav>
+    <div class="progress-wrap"><progress id="progress" value="0" max="28" aria-label="Số câu và ý đã trả lời"></progress><span id="progress-label">Đã trả lời 0/28 câu và ý</span></div>
+
+    <section id="part-a" class="part"><div class="part-heading"><span class="part-letter">A</span><div><h2>Chọn một đáp án</h2><p>Mỗi câu chọn A, B, C hoặc D.</p></div><span class="points">12 × 0,25 = <b>3 điểm</b></span></div><div id="mc-questions" class="mc-grid"></div></section>
+    <section id="part-b" class="part"><div class="part-heading"><span class="part-letter">B</span><div><h2>Đúng hay sai?</h2><p>Mỗi ý đúng được 0,25 điểm, chấm độc lập.</p></div><span class="points">8 × 0,25 = <b>2 điểm</b></span></div><div id="tf-questions" class="tf-grid"></div></section>
+    <section id="part-c" class="part"><div class="part-heading"><span class="part-letter">C</span><div><h2>Trả lời ngắn</h2><p>Nhập kết quả hoặc mở bảng tô chữ số. Hai cách luôn khớp nhau.</p></div><span class="points">8 × 0,25 = <b>2 điểm</b></span></div><p class="helper">Ghi từ trái sang phải, tối đa 4 ký tự; để trống cột còn lại. Phiếu hỗ trợ dấu âm và dấu phẩy thập phân. Mã 101 dùng đáp án số nguyên dương.</p><div id="short-questions" class="short-grid"></div></section>
+    <section id="essay" class="part essay"><div class="part-heading"><span class="part-letter">II</span><div><h2>Phần tự luận</h2><p>Giáo viên chấm riêng 3 điểm. Không tính vào điểm tự động.</p></div></div><div id="essay-questions"></div></section>
+    <div id="form-error" class="form-error" role="alert" hidden></div>
+    <div class="submit-area"><div><strong id="submit-status">Sẵn sàng xem kết quả?</strong><p>Câu bỏ trống được 0 điểm. Có thể làm lại để luyện tập.</p></div><button id="submit" class="primary" type="submit">Nộp bài và xem điểm <span aria-hidden="true">→</span></button></div>
+  </form>
+
+  <section id="result" class="result" aria-labelledby="result-title" hidden>
+    <p class="eyebrow">KẾT QUẢ BÀI LÀM</p><div class="result-head"><div><h2 id="result-title">Điểm trắc nghiệm</h2><p id="result-person"></p></div><div class="score"><strong id="total-score">0</strong><span>/ 7</span></div></div><p id="result-summary" role="status" aria-live="polite"></p>
+    <div id="score-parts" class="score-parts"></div><p class="separate">Phần tự luận chưa chấm. Đây chưa phải tổng điểm bài kiểm tra trên 10.</p>
+    <div class="result-actions"><button type="button" id="review" class="secondary">Xem đáp án và giải thích</button><button type="button" id="print" class="secondary">In / lưu PDF</button><button type="button" id="download" class="secondary">Tải kết quả</button><button type="button" id="retry" class="primary">Làm lại</button></div><div id="review-content" hidden></div>
+  </section>
+  <footer><p>Mẫu luyện tập dựa trên phiếu 12–2–8. Bài làm lưu trên trình duyệt này; chưa tự gửi điểm về giáo viên.</p><details><summary>Thông tin dành cho giáo viên</summary><p>Đáp án đang dùng: đề Sinh học 10 mã 101 đã đối chiếu với ma trận. Ba phần trắc nghiệm có tổng 7 điểm; phần tự luận chấm riêng 3 điểm. Phiếu chuyển các ô tô trên giấy thành lựa chọn trực tiếp, không cần quét ảnh, số phách hay dấu định vị.</p><p>Bản luyện tập cho phép làm lại và lưu đáp án trong trang. Để dùng cho bài kiểm tra chính thức, cần bổ sung chấm trên máy chủ, danh sách lớp và nơi nhận kết quả. Điểm hiện tại chỉ là kết quả tự luyện trên thiết bị của học sinh.</p></details></footer>
+</main>
+<dialog id="confirm-dialog"><form method="dialog"><h2 id="dialog-title">Nộp bài?</h2><p id="dialog-message"></p><div class="dialog-actions"><button value="cancel" class="secondary">Quay lại</button><button value="confirm" class="primary" id="dialog-confirm">Nộp bài</button></div></form></dialog>
+</body>
+</html>

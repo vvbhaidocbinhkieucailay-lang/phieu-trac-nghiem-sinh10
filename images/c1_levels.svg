@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="390" viewBox="0 0 760 390"><rect width="100%" height="100%" fill="white"/>
+<rect x="5" y="5" width="365" height="180" fill="white" stroke="black" stroke-width="2"/>
+<text x="33" y="30" dominant-baseline="central" text-anchor="start" font-family="Arial, sans-serif" font-size="30" font-weight="bold">I</text>
+<ellipse cx="195.0" cy="83.0" rx="37.80000000000001" ry="16.799999999999997" fill="white" stroke="black" stroke-width="2"/>
+<polyline points="160.0,83 139.0,63.400000000000006 139.0,102.6 160.0,83" fill="none" stroke="black" stroke-width="2"/>
+<ellipse cx="216.7" cy="80.9" rx="2.1000000000000085" ry="2.1000000000000014" fill="black" stroke="black" stroke-width="1"/>
+<text x="189" y="167" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="28">Một cá rô phi</text>
+<rect x="390" y="5" width="365" height="180" fill="white" stroke="black" stroke-width="2"/>
+<text x="418" y="30" dominant-baseline="central" text-anchor="start" font-family="Arial, sans-serif" font-size="30" font-weight="bold">II</text>
+<ellipse cx="490.0" cy="85.0" rx="27.0" ry="12.0" fill="white" stroke="black" stroke-width="2"/>
+<polyline points="465,85 450,71 450,99 465,85" fill="none" stroke="black" stroke-width="2"/>
+<ellipse cx="505.5" cy="83.5" rx="1.5" ry="1.5" fill="black" stroke="black" stroke-width="1"/>
+<ellipse cx="590.0" cy="85.0" rx="27.0" ry="12.0" fill="white" stroke="black" stroke-width="2"/>
+<polyline points="565,85 550,71 550,99 565,85" fill="none" stroke="black" stroke-width="2"/>
+<ellipse cx="605.5" cy="83.5" rx="1.5" ry="1.5" fill="black" stroke="black" stroke-width="1"/>
+<ellipse cx="690.0" cy="85.0" rx="27.0" ry="12.0" fill="white" stroke="black" stroke-width="2"/>
+<polyline points="665,85 650,71 650,99 665,85" fill="none" stroke="black" stroke-width="2"/>
+<ellipse cx="705.5" cy="83.5" rx="1.5" ry="1.5" fill="black" stroke="black" stroke-width="1"/>
+<text x="574" y="167" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="28">Cá rô phi cùng ao</text>
+<rect x="5" y="205" width="365" height="180" fill="white" stroke="black" stroke-width="2"/>
+<text x="33" y="230" dominant-baseline="central" text-anchor="start" font-family="Arial, sans-serif" font-size="30" font-weight="bold">III</text>
+<ellipse cx="100.0" cy="285.0" rx="27.0" ry="12.0" fill="white" stroke="black" stroke-width="2"/>
+<polyline points="75,285 60,271 60,299 75,285" fill="none" stroke="black" stroke-width="2"/>
+<ellipse cx="115.5" cy="283.5" rx="1.5" ry="1.5" fill="black" stroke="black" stroke-width="1"/>
+<ellipse cx="180.0" cy="290.0" rx="18.900000000000006" ry="8.399999999999977" fill="white" stroke="black" stroke-width="2"/>
+<polyline points="162.5,290 152.0,280.2 152.0,299.8 162.5,290" fill="none" stroke="black" stroke-width="2"/>
+<ellipse cx="190.85000000000002" cy="288.95" rx="1.0499999999999972" ry="1.0500000000000114" fill="black" stroke="black" stroke-width="1"/>
+<polyline points="275,305 275,263" fill="none" stroke="black" stroke-width="3"/>
+<polyline points="275,285 260,270" fill="none" stroke="black" stroke-width="3"/>
+<polyline points="275,290 290,273" fill="none" stroke="black" stroke-width="3"/>
+<ellipse cx="226.0" cy="292.5" rx="13.0" ry="12.5" fill="#ddd" stroke="black" stroke-width="2"/>
+<polyline points="221,305 210,317" fill="none" stroke="black" stroke-width="2"/>
+<text x="189" y="367" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="28">Nhiều loài trong ao</text>
+<rect x="390" y="205" width="365" height="180" fill="white" stroke="black" stroke-width="2"/>
+<text x="418" y="230" dominant-baseline="central" text-anchor="start" font-family="Arial, sans-serif" font-size="30" font-weight="bold">IV</text>
+<ellipse cx="485.0" cy="285.0" rx="27.0" ry="12.0" fill="white" stroke="black" stroke-width="2"/>
+<polyline points="460,285 445,271 445,299 460,285" fill="none" stroke="black" stroke-width="2"/>
+<ellipse cx="500.5" cy="283.5" rx="1.5" ry="1.5" fill="black" stroke="black" stroke-width="1"/>
+<ellipse cx="565.0" cy="290.0" rx="18.899999999999977" ry="8.399999999999977" fill="white" stroke="black" stroke-width="2"/>
+<polyline points="547.5,290 537.0,280.2 537.0,299.8 547.5,290" fill="none" stroke="black" stroke-width="2"/>
+<ellipse cx="575.8499999999999" cy="288.95" rx="1.0500000000000114" ry="1.0500000000000114" fill="black" stroke="black" stroke-width="1"/>
+<polyline points="660,305 660,263" fill="none" stroke="black" stroke-width="3"/>
+<polyline points="660,285 645,270" fill="none" stroke="black" stroke-width="3"/>
+<polyline points="660,290 675,273" fill="none" stroke="black" stroke-width="3"/>
+<ellipse cx="611.0" cy="292.5" rx="13.0" ry="12.5" fill="#ddd" stroke="black" stroke-width="2"/>
+<polyline points="606,305 595,317" fill="none" stroke="black" stroke-width="2"/>
+<polyline points="460,320 700,320" fill="none" stroke="black" stroke-width="2"/>
+<text x="578" y="339" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="25">Nước, đất, ánh sáng</text>
+<text x="574" y="367" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="28">Sinh vật + môi trường</text>
+</svg>

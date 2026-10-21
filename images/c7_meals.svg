@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="350" viewBox="0 0 600 350"><rect width="100%" height="100%" fill="white"/>
+<text x="300" y="23" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="29">Khối lượng từng nhóm chất (g)</text>
+<text x="190" y="98" dominant-baseline="central" text-anchor="end" font-family="Arial, sans-serif" font-size="27">Lipid</text>
+<rect x="213" y="78" width="55" height="22" fill="white" stroke="black" stroke-width="2"/>
+<text x="283" y="89" dominant-baseline="central" text-anchor="start" font-family="Arial, sans-serif" font-size="27">5</text>
+<rect x="213" y="109" width="132" height="22" fill="#999999" stroke="black" stroke-width="2"/>
+<text x="360" y="120" dominant-baseline="central" text-anchor="start" font-family="Arial, sans-serif" font-size="27">12</text>
+<text x="190" y="176" dominant-baseline="central" text-anchor="end" font-family="Arial, sans-serif" font-size="27">Protein</text>
+<rect x="213" y="156" width="198" height="22" fill="white" stroke="black" stroke-width="2"/>
+<text x="426" y="167" dominant-baseline="central" text-anchor="start" font-family="Arial, sans-serif" font-size="27">18</text>
+<rect x="213" y="187" width="198" height="22" fill="#999999" stroke="black" stroke-width="2"/>
+<text x="426" y="198" dominant-baseline="central" text-anchor="start" font-family="Arial, sans-serif" font-size="27">18</text>
+<text x="190" y="254" dominant-baseline="central" text-anchor="end" font-family="Arial, sans-serif" font-size="27">Carbohydrate</text>
+<rect x="213" y="234" width="275" height="22" fill="white" stroke="black" stroke-width="2"/>
+<text x="503" y="245" dominant-baseline="central" text-anchor="start" font-family="Arial, sans-serif" font-size="27">25</text>
+<rect x="213" y="265" width="275" height="22" fill="#999999" stroke="black" stroke-width="2"/>
+<text x="503" y="276" dominant-baseline="central" text-anchor="start" font-family="Arial, sans-serif" font-size="27">25</text>
+<rect x="140" y="310" width="31" height="22" fill="white" stroke="black" stroke-width="2"/>
+<text x="184" y="322" dominant-baseline="central" text-anchor="start" font-family="Arial, sans-serif" font-size="28">A</text>
+<rect x="320" y="310" width="31" height="22" fill="#999999" stroke="black" stroke-width="2"/>
+<text x="364" y="322" dominant-baseline="central" text-anchor="start" font-family="Arial, sans-serif" font-size="28">B</text>
+</svg>

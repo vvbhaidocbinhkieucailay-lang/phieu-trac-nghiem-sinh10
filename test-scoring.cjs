@@ -13,5 +13,12 @@ for(const bad of ['3x','1,','--1','NaN','1e2','1 2','12345'])assert.equal(e.pars
 assert.equal(e.parseNumber('-1,5').value,-1.5);assert.equal(e.parseNumber('3.0').value,3);assert.equal(e.parseNumber('03').value,3);
 assert.equal(e.readColumns(['3','','2','']).valid,false);assert.equal(e.readColumns(['','3','','']).valid,false);
 assert.equal(e.readColumns(['3','','','']).value,3);assert.equal(e.readColumns(['','','','']).empty,true);
-const equivalent=structuredClone(correct);equivalent.short[0]=cols('3,0');assert.equal(e.grade(exam,equivalent).total,7);
-console.log('PASS: full marks, zero marks, independent true/false scoring, numeric validation, gaps and equivalent decimals.');
+for(const value of ['321','112','12,0','012','1.2','-12','5'])assert.equal(e.readAnswer({kind:'selection'},cols(value)).valid,false,value);
+for(const value of ['1','13','234','1234'])assert.equal(e.readAnswer({kind:'selection'},cols(value)).valid,true,value);
+const wrongCount=structuredClone(correct);wrongCount.short[0]=cols('3');assert.equal(e.grade(exam,wrongCount).total,6.75);
+const reverse=structuredClone(correct);reverse.short[0]=cols('432');assert.equal(e.grade(exam,reverse).total,6.75);
+const gap=structuredClone(correct);gap.short[0]=['2','','3','4'];assert.equal(e.grade(exam,gap).total,6.75);
+assert.equal(e.readAnswer({kind:'number'},cols('3,0')).value,3);
+assert.equal(exam.code,'103');assert.equal(exam.short.filter(x=>x.kind==='selection').length,8);
+assert.equal(exam.tf.filter(x=>x.figure).length,2);assert.equal(exam.short.filter(x=>x.figure).length,4);
+console.log('PASS: 7/7, empty, independent TF, ascending selections, reject counts/reversed/duplicates/decimals/gaps; 6 figures.');
