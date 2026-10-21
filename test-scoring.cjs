@@ -1,0 +1,17 @@
+const assert=require('node:assert/strict');
+global.window={};require('./exam-data.js');const exam=window.EXAM;const e=require('./scoring.js');
+const cols=s=>Array.from({length:4},(_,i)=>String(s)[i]||'');
+const blank=()=>({mc:Array(12).fill(''),tf:[Array(4).fill(''),Array(4).fill('')],short:Array.from({length:8},()=>cols(''))});
+const correct={mc:exam.mc.map(x=>x.key),tf:exam.tf.map(x=>x.items.map(y=>y.key)),short:exam.short.map(x=>cols(x.key))};
+assert.equal(e.grade(exam,correct).total,7);assert.deepEqual(e.grade(exam,correct).points,{mc:3,tf:2,short:2});
+assert.equal(e.grade(exam,blank()).total,0);
+const single=blank();single.tf[0][0]=exam.tf[0].items[0].key;assert.equal(e.grade(exam,single).total,.25);
+single.tf[0][1]=exam.tf[0].items[1].key;assert.equal(e.grade(exam,single).total,.5);
+single.tf[0][2]=exam.tf[0].items[2].key;assert.equal(e.grade(exam,single).total,.75);
+single.tf[0][3]=exam.tf[0].items[3].key;assert.equal(e.grade(exam,single).total,1);
+for(const bad of ['3x','1,','--1','NaN','1e2','1 2','12345'])assert.equal(e.parseNumber(bad).valid,false,bad);
+assert.equal(e.parseNumber('-1,5').value,-1.5);assert.equal(e.parseNumber('3.0').value,3);assert.equal(e.parseNumber('03').value,3);
+assert.equal(e.readColumns(['3','','2','']).valid,false);assert.equal(e.readColumns(['','3','','']).valid,false);
+assert.equal(e.readColumns(['3','','','']).value,3);assert.equal(e.readColumns(['','','','']).empty,true);
+const equivalent=structuredClone(correct);equivalent.short[0]=cols('3,0');assert.equal(e.grade(exam,equivalent).total,7);
+console.log('PASS: full marks, zero marks, independent true/false scoring, numeric validation, gaps and equivalent decimals.');
