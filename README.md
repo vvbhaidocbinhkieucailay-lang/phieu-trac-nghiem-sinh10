@@ -17,7 +17,7 @@ Tự chấm **trên 7**, đúng–sai chấm từng ý độc lập. Thời gian
 
 ## Nội dung và nguồn
 
-Câu hỏi, tình huống khác mã 101–102; biên soạn từ ngân hàng Sinh học 10 giữa học kì I năm 2026–2027 và đối chiếu ma trận, bảng đặc tả. Sáu hình mới: thời gian chiếu sáng, hoạt tính enzyme, cấp độ tổ chức sống, polysaccharide, suất ăn và vạch DNA. Hình/số liệu là mô hình giả định phục vụ bài tập, không phải kết quả nghiên cứu thực nghiệm công bố.
+Câu hỏi, tình huống khác mã 101–102; biên soạn từ ngân hàng Sinh học 10 giữa học kì I năm 2026–2027 và đối chiếu ma trận, bảng đặc tả. Mười hình vector màu cho B1–B2 và C1–C8: biểu đồ chiếu sáng, enzyme, cấp độ tổ chức sống, hệ thần kinh, carbon, nước, polysaccharide, protein, suất ăn và vạch DNA. Có nút Phóng to hình; trên điện thoại có thể vuốt ngang trong cửa sổ xem lớn. Hình/số liệu là mô hình giả định phục vụ bài tập, không phải kết quả nghiên cứu thực nghiệm công bố.
 
 Cả 8 câu C yêu cầu **ghi liền số thứ tự các ý đúng theo thứ tự tăng dần**, ví dụ `134`; không ghi `3` để biểu thị số lượng ý đúng. Không dùng dấu âm, dấu phẩy, số lặp hay thứ tự đảo. Bốn cột tô số đồng bộ với ô nhập. Mỗi câu có 4 ý đánh số 1–4; đúng định dạng chưa có nghĩa là đúng đáp án.
 
@@ -29,16 +29,16 @@ Bảng đặc tả xếp A.8 ở Bài 4/TH với yêu cầu giải thích tế b
 
 1. Mở link, nhập thông tin nếu muốn, làm các câu A–D, đúng–sai và đọc hình để trả lời phần C.
 2. Bấm **Nộp bài và xem điểm**; trang nhắc nếu thiếu, chặn chuỗi C sai định dạng.
-3. Xem đáp án, giải thích; tải kết quả văn bản hoặc in/lưu PDF; có thể làm lại.
+3. Chỉ xem điểm tổng trên 7 và điểm từng phần. Không hiện đáp án, lời giải hoặc kết luận đúng/sai từng câu. Bản tải văn bản và bản in kết quả cũng chỉ có thông tin bài làm và điểm; có thể làm lại.
 
 Bài làm lưu trong trình duyệt học sinh, khóa lưu riêng cho mã 103. Đổi thiết bị, xóa dữ liệu hoặc dùng chế độ riêng tư có thể mất tiến độ. Trang **chưa tự gửi bài/điểm về giáo viên**, chưa có bảng điểm chung. Có thể tải kết quả để gửi theo kênh giáo viên quy định.
 
-Đây là bản ôn tập: đáp án trong mã nguồn công khai, lời giải hiện sau nộp. Tự luận lưu cùng bài làm nhưng không chấm tự động.
+Đây là bản ôn tập: đáp án vẫn có trong mã nguồn công khai để chấm trên trình duyệt. Chế độ chỉ hiện điểm là giới hạn giao diện, không phải bảo mật đáp án; muốn bảo mật cần máy chủ chấm bài. Tự luận lưu cùng bài làm nhưng không chấm tự động.
 
 ## Cập nhật và kiểm tra
 
 - `exam-data.js`: nội dung, đáp án, giải thích, mô tả hình.
-- `images/`: sáu hình SVG.
+- `images/`: mười hình SVG tự vẽ, không dùng ảnh mờ hoặc ảnh có đáp án.
 - `scoring.js`: kiểm tra số/chuỗi chọn ý, chấm điểm.
 - `app.js`: tương tác, lưu, xuất kết quả.
 - `index.html`, `style.css`: giao diện; `ma-101/`: bản 101 dùng khóa và tệp cũ.
@@ -50,3 +50,9 @@ GitHub Pages xuất bản từ nhánh `main`, thư mục gốc `/`. Đẩy commi
 ## Giao diện và hướng dẫn tô
 
 Giao diện phần đầu dùng tiêu đề “Ôn tập Sinh học 10” và “Luyện tập và tự đánh giá kiến thức”, phân biệt ba dạng bằng xanh dương, cam, tím. `interface.css` quản lý màu và bố cục đáp ứng. Mục Hướng dẫn tô có ô A–D tô thử ngoài bài làm và mẫu tô chuỗi 134. Nút Xem hướng dẫn tô mở mục này; có thể thu gọn. Khi sửa giao diện, giữ khóa lưu bài và dữ liệu đáp án, đồng thời đổi phiên bản CSS/JS để trình duyệt tải bản mới.
+
+## Kiểm chứng hình và chế độ chỉ hiện điểm (21/10/2026)
+
+Hình được tự vẽ cho bài tập, giữ nguyên dữ kiện, câu hỏi và đáp án mã 103. Mô hình nguyên tử và protein đã đối chiếu kiến thức nền trong [OpenStax: Carbon](https://openstax.org/books/biology-2e/pages/2-3-carbon) và [OpenStax: Proteins](https://openstax.org/books/biology-2e/pages/3-4-proteins); không sao chép hình nguồn. Hình carbon là mô hình lớp electron giản lược, không phải quỹ đạo thực. Không ghi chức năng hay chuỗi đáp án lên hình mới.
+
+Đã thử chấm một câu đúng đạt 0,25/7, bài đúng toàn bộ đạt 7/7, tải lại bài đã nộp, làm lại, tải tệp điểm, mở/đóng hình trên màn hình hẹp. Không tạo bảng đáp án ẩn trong DOM nên bản in sau nộp cũng không chứa lời giải. Thay đổi này áp dụng trang gốc mã 103; thư mục lịch sử ma-101 giữ nguyên.

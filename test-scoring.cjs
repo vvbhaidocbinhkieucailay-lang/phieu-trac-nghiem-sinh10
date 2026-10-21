@@ -20,5 +20,5 @@ const reverse=structuredClone(correct);reverse.short[0]=cols('432');assert.equal
 const gap=structuredClone(correct);gap.short[0]=['2','','3','4'];assert.equal(e.grade(exam,gap).total,6.75);
 assert.equal(e.readAnswer({kind:'number'},cols('3,0')).value,3);
 assert.equal(exam.code,'103');assert.equal(exam.short.filter(x=>x.kind==='selection').length,8);
-assert.equal(exam.tf.filter(x=>x.figure).length,2);assert.equal(exam.short.filter(x=>x.figure).length,4);
-console.log('PASS: 7/7, empty, independent TF, ascending selections, reject counts/reversed/duplicates/decimals/gaps; 6 figures.');
+assert.equal(exam.tf.filter(x=>x.figure).length,2);assert.equal(exam.short.filter(x=>x.figure).length,8);
+console.log('PASS: 7/7, empty, independent TF, ascending selections, reject counts/reversed/duplicates/decimals/gaps; 10 figures.');

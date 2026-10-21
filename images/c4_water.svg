@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 285" width="640" height="285" role="img"><title>Mô hình một phân tử nước</title><rect width="640" height="285" rx="16" fill="#f6f9fd"/>
+<text x="24" y="32" text-anchor="start" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="23" fill="#233c52" font-weight="700">Mô hình một phân tử nước</text>
+<line x1="260" y1="123" x2="175" y2="187" stroke="#718fa7" stroke-width="14"/>
+<line x1="260" y1="123" x2="345" y2="187" stroke="#718fa7" stroke-width="14"/>
+<circle cx="260" cy="123" r="44" fill="#ca514e" stroke="none" stroke-width="2"/>
+<text x="260" y="123" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="34" fill="white" font-weight="700">O</text>
+<circle cx="175" cy="187" r="29" fill="#e3f0ff" stroke="#2854ac" stroke-width="2"/>
+<text x="175" y="187" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="25" fill="#2854ac" font-weight="700">H</text>
+<circle cx="345" cy="187" r="29" fill="#e3f0ff" stroke="#2854ac" stroke-width="2"/>
+<text x="345" y="187" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="25" fill="#2854ac" font-weight="700">H</text>
+<text x="495" y="126" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="37" fill="#2854ac" font-weight="700">H₂O</text>
+<text x="320" y="254" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="18" fill="#233c52" font-weight="400">Mô hình không theo tỉ lệ kích thước nguyên tử.</text>
+</svg>

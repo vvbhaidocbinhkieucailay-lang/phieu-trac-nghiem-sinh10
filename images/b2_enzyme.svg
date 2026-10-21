@@ -1,18 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="430" viewBox="0 0 600 430"><rect width="100%" height="100%" fill="white"/>
-<text x="300" y="25" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="30">Hoạt tính tương đối (%)</text>
-<polyline points="55,62 55,255 565,255" fill="none" stroke="black" stroke-width="2"/>
-<rect x="88" y="95.0" width="64" height="160.0" fill="#d8d8d8" stroke="black" stroke-width="2"/>
-<text x="120" y="74.0" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold">100</text>
-<text x="120" y="281" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold">A</text>
-<rect x="221" y="223.0" width="64" height="32.0" fill="#d8d8d8" stroke="black" stroke-width="2"/>
-<text x="253" y="202.0" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold">20</text>
-<text x="253" y="281" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold">B</text>
-<rect x="354" y="95.0" width="64" height="160.0" fill="#d8d8d8" stroke="black" stroke-width="2"/>
-<text x="386" y="74.0" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold">100</text>
-<text x="386" y="281" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold">C</text>
-<text x="519" y="234.0" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold">0</text>
-<text x="519" y="281" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold">D</text>
-<text x="300" y="323" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="28">A: 25 °C; B: 5 °C</text>
-<text x="300" y="360" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="28">C: 5 °C rồi về 25 °C</text>
-<text x="300" y="397" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="28">D: 100 °C (5 phút), về 25 °C</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 505" width="640" height="505" role="img"><title>Enzyme X: xử lí và hoạt tính</title><rect width="640" height="505" rx="16" fill="#f6f9fd"/>
+<text x="24" y="32" text-anchor="start" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="23" fill="#233c52" font-weight="700">Enzyme X: xử lí và hoạt tính</text>
+<text x="25" y="64" text-anchor="start" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="20" fill="#233c52" font-weight="400">Hoạt tính tương đối (%)</text>
+<line x1="65" y1="262.0" x2="610" y2="262.0" stroke="#dbe5f0" stroke-width="1"/>
+<text x="53" y="262.0" text-anchor="end" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="17" fill="#233c52" font-weight="400">0</text>
+<line x1="65" y1="230.0" x2="610" y2="230.0" stroke="#dbe5f0" stroke-width="1"/>
+<text x="53" y="230.0" text-anchor="end" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="17" fill="#233c52" font-weight="400">20</text>
+<line x1="65" y1="198.0" x2="610" y2="198.0" stroke="#dbe5f0" stroke-width="1"/>
+<text x="53" y="198.0" text-anchor="end" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="17" fill="#233c52" font-weight="400">40</text>
+<line x1="65" y1="166.0" x2="610" y2="166.0" stroke="#dbe5f0" stroke-width="1"/>
+<text x="53" y="166.0" text-anchor="end" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="17" fill="#233c52" font-weight="400">60</text>
+<line x1="65" y1="134.0" x2="610" y2="134.0" stroke="#dbe5f0" stroke-width="1"/>
+<text x="53" y="134.0" text-anchor="end" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="17" fill="#233c52" font-weight="400">80</text>
+<line x1="65" y1="102.0" x2="610" y2="102.0" stroke="#dbe5f0" stroke-width="1"/>
+<text x="53" y="102.0" text-anchor="end" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="17" fill="#233c52" font-weight="400">100</text>
+<rect x="108" y="102.0" width="60" height="160.0" rx="3" fill="#2854ac" stroke="#2854ac" stroke-width="2"/>
+<text x="138" y="85.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="23" fill="#233c52" font-weight="700">100%</text>
+<text x="138" y="289" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="23" fill="#233c52" font-weight="700">A</text>
+<rect x="245" y="230.0" width="60" height="32.0" rx="3" fill="#7847a5" stroke="#7847a5" stroke-width="2"/>
+<text x="275" y="213.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="23" fill="#233c52" font-weight="700">20%</text>
+<text x="275" y="289" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="23" fill="#233c52" font-weight="700">B</text>
+<rect x="382" y="102.0" width="60" height="160.0" rx="3" fill="#177c68" stroke="#177c68" stroke-width="2"/>
+<text x="412" y="85.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="23" fill="#233c52" font-weight="700">100%</text>
+<text x="412" y="289" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="23" fill="#233c52" font-weight="700">C</text>
+<line x1="519" y1="262" x2="579" y2="262" stroke="#b56a16" stroke-width="5"/>
+<text x="549" y="245.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="23" fill="#233c52" font-weight="700">0%</text>
+<text x="549" y="289" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="23" fill="#233c52" font-weight="700">D</text>
+<circle cx="40" cy="331" r="15" fill="#2854ac" stroke="none" stroke-width="2"/>
+<text x="40" y="331" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="19" fill="white" font-weight="700">A</text>
+<text x="65" y="331" text-anchor="start" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="20" fill="#233c52" font-weight="400">Đo ở 25 °C</text>
+<circle cx="40" cy="371" r="15" fill="#7847a5" stroke="none" stroke-width="2"/>
+<text x="40" y="371" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="19" fill="white" font-weight="700">B</text>
+<text x="65" y="371" text-anchor="start" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="20" fill="#233c52" font-weight="400">Đo ở 5 °C</text>
+<circle cx="40" cy="411" r="15" fill="#177c68" stroke="none" stroke-width="2"/>
+<text x="40" y="411" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="19" fill="white" font-weight="700">C</text>
+<text x="65" y="411" text-anchor="start" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="20" fill="#233c52" font-weight="400">Làm lạnh 5 °C → đưa về 25 °C để đo</text>
+<circle cx="40" cy="451" r="15" fill="#b56a16" stroke="none" stroke-width="2"/>
+<text x="40" y="451" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="19" fill="white" font-weight="700">D</text>
+<text x="65" y="451" text-anchor="start" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="20" fill="#233c52" font-weight="400">100 °C, 5 phút → về 25 °C để đo</text>
 </svg>

@@ -1,22 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="350" viewBox="0 0 600 350"><rect width="100%" height="100%" fill="white"/>
-<text x="300" y="23" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="29">Khối lượng từng nhóm chất (g)</text>
-<text x="190" y="98" dominant-baseline="central" text-anchor="end" font-family="Arial, sans-serif" font-size="27">Lipid</text>
-<rect x="213" y="78" width="55" height="22" fill="white" stroke="black" stroke-width="2"/>
-<text x="283" y="89" dominant-baseline="central" text-anchor="start" font-family="Arial, sans-serif" font-size="27">5</text>
-<rect x="213" y="109" width="132" height="22" fill="#999999" stroke="black" stroke-width="2"/>
-<text x="360" y="120" dominant-baseline="central" text-anchor="start" font-family="Arial, sans-serif" font-size="27">12</text>
-<text x="190" y="176" dominant-baseline="central" text-anchor="end" font-family="Arial, sans-serif" font-size="27">Protein</text>
-<rect x="213" y="156" width="198" height="22" fill="white" stroke="black" stroke-width="2"/>
-<text x="426" y="167" dominant-baseline="central" text-anchor="start" font-family="Arial, sans-serif" font-size="27">18</text>
-<rect x="213" y="187" width="198" height="22" fill="#999999" stroke="black" stroke-width="2"/>
-<text x="426" y="198" dominant-baseline="central" text-anchor="start" font-family="Arial, sans-serif" font-size="27">18</text>
-<text x="190" y="254" dominant-baseline="central" text-anchor="end" font-family="Arial, sans-serif" font-size="27">Carbohydrate</text>
-<rect x="213" y="234" width="275" height="22" fill="white" stroke="black" stroke-width="2"/>
-<text x="503" y="245" dominant-baseline="central" text-anchor="start" font-family="Arial, sans-serif" font-size="27">25</text>
-<rect x="213" y="265" width="275" height="22" fill="#999999" stroke="black" stroke-width="2"/>
-<text x="503" y="276" dominant-baseline="central" text-anchor="start" font-family="Arial, sans-serif" font-size="27">25</text>
-<rect x="140" y="310" width="31" height="22" fill="white" stroke="black" stroke-width="2"/>
-<text x="184" y="322" dominant-baseline="central" text-anchor="start" font-family="Arial, sans-serif" font-size="28">A</text>
-<rect x="320" y="310" width="31" height="22" fill="#999999" stroke="black" stroke-width="2"/>
-<text x="364" y="322" dominant-baseline="central" text-anchor="start" font-family="Arial, sans-serif" font-size="28">B</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img"><title>Thành phần hai suất ăn</title><rect width="640" height="360" rx="16" fill="#f6f9fd"/>
+<text x="24" y="32" text-anchor="start" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="23" fill="#233c52" font-weight="700">Thành phần hai suất ăn</text>
+<rect x="18" y="66" width="292" height="263" rx="9" fill="#fff" stroke="#d4e1ed" stroke-width="2"/>
+<circle cx="164" cy="107" r="25" fill="#2854ac" stroke="none" stroke-width="2"/>
+<text x="164" y="107" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="28" fill="white" font-weight="700">A</text>
+<text x="36" y="166" text-anchor="start" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="21" fill="#233c52" font-weight="400">Lipid</text>
+<text x="284" y="166" text-anchor="end" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="25" fill="#2854ac" font-weight="700">5 g</text>
+<text x="36" y="224" text-anchor="start" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="21" fill="#233c52" font-weight="400">Protein</text>
+<text x="284" y="224" text-anchor="end" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="25" fill="#2854ac" font-weight="700">18 g</text>
+<text x="36" y="282" text-anchor="start" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="21" fill="#233c52" font-weight="400">Carbohydrate</text>
+<text x="284" y="282" text-anchor="end" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="25" fill="#2854ac" font-weight="700">25 g</text>
+<rect x="330" y="66" width="292" height="263" rx="9" fill="#fff" stroke="#d4e1ed" stroke-width="2"/>
+<circle cx="476" cy="107" r="25" fill="#7847a5" stroke="none" stroke-width="2"/>
+<text x="476" y="107" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="28" fill="white" font-weight="700">B</text>
+<text x="348" y="166" text-anchor="start" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="21" fill="#233c52" font-weight="400">Lipid</text>
+<text x="596" y="166" text-anchor="end" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="25" fill="#7847a5" font-weight="700">12 g</text>
+<text x="348" y="224" text-anchor="start" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="21" fill="#233c52" font-weight="400">Protein</text>
+<text x="596" y="224" text-anchor="end" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="25" fill="#7847a5" font-weight="700">18 g</text>
+<text x="348" y="282" text-anchor="start" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="21" fill="#233c52" font-weight="400">Carbohydrate</text>
+<text x="596" y="282" text-anchor="end" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="25" fill="#7847a5" font-weight="700">25 g</text>
 </svg>

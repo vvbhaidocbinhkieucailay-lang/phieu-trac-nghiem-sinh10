@@ -6,11 +6,11 @@
   <meta name="theme-color" content="#176c61">
   <title>Phiếu trả lời Sinh học 10 · Mã 103</title>
   <meta name="description" content="Phiếu ôn tập Sinh học 10 theo cấu trúc 12 câu lựa chọn, 2 câu đúng–sai, 8 câu ngắn. Xem điểm trắc nghiệm trên 7 ngay sau khi nộp bài.">
-  <link rel="stylesheet" href="style.css?v=103-ui2">
-  <link rel="stylesheet" href="interface.css?v=103-ui2">
-  <script defer src="exam-data.js?v=103-ui2"></script>
-  <script defer src="scoring.js?v=103-ui2"></script>
-  <script defer src="app.js?v=103-ui2"></script>
+  <link rel="stylesheet" href="style.css?v=103-figures3">
+  <link rel="stylesheet" href="interface.css?v=103-figures3">
+  <script defer src="exam-data.js?v=103-figures3"></script>
+  <script defer src="scoring.js?v=103-figures3"></script>
+  <script defer src="app.js?v=103-figures3"></script>
 </head>
 <body>
 <header class="masthead"><div class="wrap brand"><a href="#top" class="wordmark">SINH HỌC <span>10</span></a><span>Năm học 2026–2027</span><span class="practice"><span aria-hidden="true">●</span> Ôn tập trực tuyến</span></div></header>
@@ -19,7 +19,7 @@
     <div class="intro-copy">
       <p class="eyebrow">PHIẾU ÔN TẬP GIỮA HỌC KÌ I</p>
       <h1 id="exam-heading">Ôn tập Sinh học 10<span>Luyện tập và tự đánh giá kiến thức</span></h1>
-      <p class="lead">Đọc kỹ câu hỏi, tô đáp án và xem kết quả sau khi nộp bài.</p>
+      <p class="lead">Đọc kỹ câu hỏi, quan sát hình, tô đáp án và xem điểm sau khi nộp bài.</p>
       <div class="exam-outline" aria-label="Cấu trúc phần trắc nghiệm"><span class="outline-a">12 câu A–D</span><span class="outline-b">8 ý đúng–sai</span><span class="outline-c">8 câu trả lời ngắn</span></div>
       <div class="intro-actions"><a class="primary start-link" href="#part-a">Bắt đầu làm bài <span aria-hidden="true">→</span></a><a class="guide-link" href="#how-to">Xem hướng dẫn tô <span aria-hidden="true">↗</span></a></div>
     </div>
@@ -67,16 +67,17 @@
     <section id="part-c" class="part"><div class="part-heading"><span class="part-letter">C</span><div><h2>Trả lời ngắn</h2><p>Nhập kết quả hoặc mở bảng tô chữ số. Hai cách luôn khớp nhau.</p></div><span class="points">8 × 0,25 = <b>2 điểm</b></span></div><p class="helper">Ghi từ trái sang phải, tối đa 4 ký tự; để trống cột còn lại. Mã 103: ghi liền số thứ tự các ý đúng theo thứ tự tăng dần, ví dụ 134; không ghi số lượng ý đúng, không dùng dấu âm hay dấu phẩy.</p><div id="short-questions" class="short-grid"></div></section>
     <section id="essay" class="part essay"><div class="part-heading"><span class="part-letter">II</span><div><h2>Phần tự luận</h2><p>Giáo viên chấm riêng 3 điểm. Không tính vào điểm tự động.</p></div></div><div id="essay-questions"></div></section>
     <div id="form-error" class="form-error" role="alert" hidden></div>
-    <div class="submit-area"><div><strong id="submit-status">Sẵn sàng xem kết quả?</strong><p>Câu bỏ trống được 0 điểm. Có thể làm lại để luyện tập.</p></div><button id="submit" class="primary" type="submit">Nộp bài và xem điểm <span aria-hidden="true">→</span></button></div>
+    <div class="submit-area"><div><strong id="submit-status">Sẵn sàng xem kết quả?</strong><p>Câu bỏ trống được 0 điểm. Sau khi nộp, chỉ hiển thị điểm; không hiện đáp án hoặc lời giải.</p></div><button id="submit" class="primary" type="submit">Nộp bài và xem điểm <span aria-hidden="true">→</span></button></div>
   </form>
 
   <section id="result" class="result" aria-labelledby="result-title" hidden>
     <p class="eyebrow">KẾT QUẢ BÀI LÀM</p><div class="result-head"><div><h2 id="result-title">Điểm trắc nghiệm</h2><p id="result-person"></p></div><div class="score"><strong id="total-score">0</strong><span>/ 7</span></div></div><p id="result-summary" role="status" aria-live="polite"></p>
     <div id="score-parts" class="score-parts"></div><p class="separate">Phần tự luận chưa chấm. Đây chưa phải tổng điểm bài kiểm tra trên 10.</p>
-    <div class="result-actions"><button type="button" id="review" class="secondary">Xem đáp án và giải thích</button><button type="button" id="print" class="secondary">In / lưu PDF</button><button type="button" id="download" class="secondary">Tải kết quả</button><button type="button" id="retry" class="primary">Làm lại</button></div><div id="review-content" hidden></div>
+    <div class="result-actions"><button type="button" id="print" class="secondary">In / lưu PDF</button><button type="button" id="download" class="secondary">Tải kết quả</button><button type="button" id="retry" class="primary">Làm lại</button></div>
   </section>
   <footer><p>Mẫu luyện tập dựa trên phiếu 12–2–8. Bài làm lưu trên trình duyệt này; chưa tự gửi điểm về giáo viên.</p><details><summary>Thông tin dành cho giáo viên</summary><p>Đáp án đang dùng: đề Sinh học 10 mã 103 đã đối chiếu với ma trận và bảng đặc tả; câu hỏi khác mã 101–102. Ba phần trắc nghiệm có tổng 7 điểm; phần tự luận chấm riêng 3 điểm. Phiếu chuyển các ô tô trên giấy thành lựa chọn trực tiếp, không cần quét ảnh, số phách hay dấu định vị.</p><p>Bản luyện tập cho phép làm lại và lưu đáp án trong trang. Để dùng cho bài kiểm tra chính thức, cần bổ sung chấm trên máy chủ, danh sách lớp và nơi nhận kết quả. Điểm hiện tại chỉ là kết quả tự luyện trên thiết bị của học sinh.</p></details></footer>
 </main>
 <dialog id="confirm-dialog"><form method="dialog"><h2 id="dialog-title">Nộp bài?</h2><p id="dialog-message"></p><div class="dialog-actions"><button value="cancel" class="secondary">Quay lại</button><button value="confirm" class="primary" id="dialog-confirm">Nộp bài</button></div></form></dialog>
+<dialog id="figure-dialog" class="figure-dialog" aria-labelledby="figure-title"><div class="figure-dialog-head"><h2 id="figure-title">Quan sát hình</h2><button id="figure-close" type="button" class="secondary">Đóng hình</button></div><p class="figure-hint">Trên điện thoại, vuốt ngang để xem hết hình.</p><div class="figure-scroll"><img id="figure-large" alt=""></div><p id="figure-caption"></p></dialog>
 </body>
 </html>

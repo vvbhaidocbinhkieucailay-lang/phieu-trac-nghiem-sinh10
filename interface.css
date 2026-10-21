@@ -56,3 +56,13 @@ html{scroll-behavior:smooth;scroll-padding-top:20px}
 @media(max-width:360px){.intro{padding:20px 15px}.intro h1{font-size:26px}.intro h1>span{font-size:14px}.intro-actions{gap:12px}.guide-link{font-size:11px}.intro .exam-stamp{grid-template-columns:73px minmax(0,1fr);column-gap:12px;padding:14px}.guide-title small{font-size:9px}.guide-toggle .when-open{display:none}.section-nav a{font-size:10px;gap:4px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{.answer-guide{display:none!important}.intro{display:none}.student,.question,.result{box-shadow:none}.section-nav{display:none}.part-heading .points{background:none}}
+
+/* Hình vector có nhãn rõ và cửa sổ xem lớn, không chứa lời giải. */
+.question-figure{padding:10px;border-color:#d4e1ee;background:#f6f9fd;border-radius:12px;white-space:normal}
+.question-figure img{width:100%;max-height:none;border-radius:8px}
+.question-figure figcaption{line-height:1.5;color:#566c80}
+.figure-zoom{display:block;min-height:44px;margin:8px auto 0;padding:7px 18px;background:white;border:1px solid #a9bed6;border-radius:8px;color:#2854ac;font-size:13px;font-weight:600}
+.figure-dialog{max-width:960px;width:calc(100% - 24px);max-height:90dvh;padding:20px;overflow:auto}
+.figure-dialog-head{display:flex;align-items:center;justify-content:space-between;gap:12px;position:sticky;top:-20px;background:white;padding:10px 0;z-index:1}
+.figure-dialog h2{font-size:22px}.figure-hint{font-size:13px}.figure-scroll{overflow:auto;background:#f6f9fd;border-radius:10px}.figure-scroll img{display:block;width:100%;min-width:640px;height:auto}.figure-dialog #figure-caption{font-size:12px}
+@media print{.figure-zoom,.figure-dialog{display:none!important}}

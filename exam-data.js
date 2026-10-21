@@ -142,7 +142,7 @@ window.EXAM = {
     {
       "stem": "Ba nhóm cây cùng giống, tuổi và kích thước gần nhau được chiếu sáng 6, 12 hoặc 18 giờ/ngày; các điều kiện khác như nhau, mỗi nhóm 10 cây. Sau 14 ngày, khối lượng khô trung bình như hình.",
       "figure": {
-        "src": "images/b1_light.svg",
+        "src": "images/b1_light.svg?v=103-figures3",
         "alt": "Biểu đồ khối lượng khô: chiếu sáng 6, 12, 18 giờ mỗi ngày lần lượt đạt 1,2; 2,0; 2,1 g/cây.",
         "caption": "Sơ đồ / số liệu mô phỏng dùng cho bài tập."
       },
@@ -172,7 +172,7 @@ window.EXAM = {
     {
       "stem": "Các mẫu enzyme X có bản chất protein, cùng nồng độ, pH và lượng cơ chất được xử lí như hình. Hoạt tính tương đối được đo ở nhiệt độ ghi dưới mỗi cột.",
       "figure": {
-        "src": "images/b2_enzyme.svg",
+        "src": "images/b2_enzyme.svg?v=103-figures3",
         "alt": "Hoạt tính A ở 25 độ C: 100%; B ở 5 độ C: 20%; C làm lạnh 5 độ rồi đưa về 25 độ: 100%; D đun 100 độ C trong 5 phút rồi đưa về 25 độ: 0%.",
         "caption": "Sơ đồ / số liệu mô phỏng dùng cho bài tập."
       },
@@ -205,7 +205,7 @@ window.EXAM = {
       "stem": "Quan sát bốn sơ đồ về cùng một ao, cùng thời điểm. Chọn các phát biểu đúng.\n(1) I biểu diễn một quần thể.\n(2) II biểu diễn một quần thể cá rô phi.\n(3) III biểu diễn quần xã trong ao.\n(4) IV biểu diễn một hệ sinh thái.",
       "kind": "selection",
       "figure": {
-        "src": "images/c1_levels.svg",
+        "src": "images/c1_levels.svg?v=103-figures3",
         "alt": "I: một cá rô phi; II: các cá rô phi cùng ao; III: các loài trong ao; IV: các loài trong ao cùng nước, đất, ánh sáng, xét cùng thời điểm.",
         "caption": "Sơ đồ / số liệu mô phỏng dùng cho bài tập."
       },
@@ -215,21 +215,33 @@ window.EXAM = {
     {
       "stem": "Xét sơ đồ: tế bào thần kinh → mô thần kinh → não → hệ thần kinh. Chọn các phát biểu đúng.\n(1) Mô thần kinh được cấu tạo từ các tế bào.\n(2) Não là cấp tổ chức thấp hơn mô thần kinh.\n(3) Các cấp trong sơ đồ có quan hệ cấu tạo với nhau.\n(4) Mỗi cấp tồn tại hoàn toàn độc lập với cấp khác.",
       "kind": "selection",
-      "figure": null,
+      "figure": {
+        "src": "images/c2_neural.svg?v=103-figures3",
+        "alt": "Bốn hình minh họa: tế bào thần kinh, mô thần kinh, não và hệ thần kinh.",
+        "caption": "Hình minh họa khái quát; không theo tỉ lệ thực."
+      },
       "key": "13",
       "explanation": "Tế bào tổ chức thành mô, các mô tạo nên cơ quan, các cơ quan phối hợp trong hệ cơ quan; các cấp có quan hệ, không tồn tại hoàn toàn độc lập."
     },
     {
       "stem": "Chọn các phát biểu đúng về carbon trong tế bào.\n(1) Có thể tạo bốn liên kết cộng hóa trị.\n(2) Tham gia tạo bộ khung của hợp chất hữu cơ.\n(3) Chỉ có trong tế bào động vật.\n(4) Là nguyên tố vi lượng.",
       "kind": "selection",
-      "figure": null,
+      "figure": {
+        "src": "images/c3_carbon.svg?v=103-figures3",
+        "alt": "Mô hình carbon có hai electron ở lớp thứ nhất và bốn electron ở lớp thứ hai; hình giản lược không theo tỉ lệ.",
+        "caption": "Hình minh họa khái quát; không theo tỉ lệ thực."
+      },
       "key": "12",
       "explanation": "Carbon có bốn electron hóa trị, có thể tạo bốn liên kết cộng hóa trị và bộ khung của các hợp chất hữu cơ; là nguyên tố đa lượng, không riêng tế bào động vật."
     },
     {
       "stem": "Chọn các vai trò của nước trong tế bào.\n(1) Cung cấp trực tiếp năng lượng cho tế bào.\n(2) Là môi trường của nhiều phản ứng sinh hóa.\n(3) Góp phần điều hòa nhiệt độ.\n(4) Tham gia cấu tạo tế bào.",
       "kind": "selection",
-      "figure": null,
+      "figure": {
+        "src": "images/c4_water.svg?v=103-figures3",
+        "alt": "Một nguyên tử oxygen liên kết với hai nguyên tử hydrogen tạo mô hình phân tử nước dạng gấp khúc.",
+        "caption": "Hình minh họa khái quát; không theo tỉ lệ thực."
+      },
       "key": "234",
       "explanation": "Nước là môi trường của nhiều phản ứng, góp phần điều hòa nhiệt và tham gia cấu tạo tế bào; không cung cấp trực tiếp năng lượng."
     },
@@ -237,7 +249,7 @@ window.EXAM = {
       "stem": "Hình mô tả khái quát hai polysaccharide. Chọn các phát biểu đúng.\n(1) Cả I và II đều được cấu tạo từ glucose.\n(2) I phân nhánh, phù hợp với vai trò dự trữ năng lượng.\n(3) II có chức năng chủ yếu là xúc tác phản ứng.\n(4) Các chuỗi II liên kết thành bó, phù hợp chức năng cấu trúc.",
       "kind": "selection",
       "figure": {
-        "src": "images/c5_polymers.svg",
+        "src": "images/c5_polymers.svg?v=103-figures3",
         "alt": "I: glycogen có chuỗi glucose phân nhánh; II: cellulose có chuỗi glucose thẳng xếp song song và có liên kết giữa các chuỗi.",
         "caption": "Sơ đồ / số liệu mô phỏng dùng cho bài tập."
       },
@@ -247,7 +259,11 @@ window.EXAM = {
     {
       "stem": "Chọn các nhận xét đúng về quan hệ cấu tạo và chức năng của protein.\n(1) Cấu trúc đặc thù giúp hemoglobin vận chuyển oxygen.\n(2) Cấu trúc đặc thù giúp kháng thể nhận biết kháng nguyên.\n(3) Enzyme chỉ có vai trò lưu giữ thông tin di truyền.\n(4) Khác trình tự và cấu trúc có thể dẫn đến khác chức năng.",
       "kind": "selection",
-      "figure": null,
+      "figure": {
+        "src": "images/c6_proteins.svg?v=103-figures3",
+        "alt": "Các hình khái quát: hemoglobin gồm bốn phần, kháng thể dạng chữ Y và enzyme dạng khối gấp cuộn. Không biểu diễn chức năng.",
+        "caption": "Hình minh họa khái quát; không theo tỉ lệ thực."
+      },
       "key": "124",
       "explanation": "Hemoglobin vận chuyển oxygen, kháng thể nhận biết kháng nguyên, enzyme xúc tác phản ứng; các chức năng liên quan đến cấu trúc đặc thù. Khác trình tự/cấu trúc có thể dẫn đến khác chức năng."
     },
@@ -255,7 +271,7 @@ window.EXAM = {
       "stem": "Hai suất ăn có thành phần như hình. Biết 1 g lipid cung cấp khoảng 9 kcal. Cần giảm năng lượng từ lipid mà vẫn giữ lượng protein và carbohydrate. Chọn các nhận xét phù hợp.\n(1) Chọn A thay B đáp ứng mục tiêu đã nêu.\n(2) Đổi B sang A giảm khoảng 63 kcal từ lipid.\n(3) Suất A có ít protein hơn suất B.\n(4) Có thể bỏ mọi lipid vì chúng chỉ cung cấp năng lượng.",
       "kind": "selection",
       "figure": {
-        "src": "images/c7_meals.svg",
+        "src": "images/c7_meals.svg?v=103-figures3",
         "alt": "Suất A có 5 g lipid, 18 g protein, 25 g carbohydrate; suất B có 12 g lipid, 18 g protein, 25 g carbohydrate.",
         "caption": "Sơ đồ / số liệu mô phỏng dùng cho bài tập."
       },
@@ -266,7 +282,7 @@ window.EXAM = {
       "stem": "Hình mô phỏng một số vạch DNA của mẫu dấu vết V và ba người M, N, P. Chọn các nhận xét phù hợp khi xử lí kết quả này.\n(1) M trùng với V ở tất cả các vạch trong hình.\n(2) Chỉ từ hình này có thể khẳng định N đã phạm tội.\n(3) N trùng với V ở mọi vạch được biểu diễn.\n(4) Cần kiểm tra thêm mẫu và đối chiếu chứng cứ khác.",
       "kind": "selection",
       "figure": {
-        "src": "images/c8_dna.svg",
+        "src": "images/c8_dna.svg?v=103-figures3",
         "alt": "Vị trí vạch từ trên xuống theo sáu hàng quy ước: V có các hàng 1, 2, 4, 6; M có 1, 3, 4, 6; N có 1, 2, 4, 6; P có 1, 2, 5, 6.",
         "caption": "Sơ đồ / số liệu mô phỏng dùng cho bài tập."
       },

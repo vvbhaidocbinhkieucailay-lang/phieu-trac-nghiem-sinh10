@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 310" width="640" height="310" role="img"><title>Một số dạng cấu trúc protein</title><rect width="640" height="310" rx="16" fill="#f6f9fd"/>
+<text x="24" y="32" text-anchor="start" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="23" fill="#233c52" font-weight="700">Một số dạng cấu trúc protein</text>
+<rect x="24" y="69" width="184" height="173" rx="9" fill="#fff" stroke="#d4e1ed" stroke-width="2"/>
+<rect x="228" y="69" width="184" height="173" rx="9" fill="#fff" stroke="#d4e1ed" stroke-width="2"/>
+<rect x="432" y="69" width="184" height="173" rx="9" fill="#fff" stroke="#d4e1ed" stroke-width="2"/>
+<circle cx="94" cy="125" r="25" fill="#2854ac" stroke="none" stroke-width="2"/>
+<circle cx="138" cy="125" r="25" fill="#7847a5" stroke="none" stroke-width="2"/>
+<circle cx="94" cy="167" r="25" fill="#7847a5" stroke="none" stroke-width="2"/>
+<circle cx="138" cy="167" r="25" fill="#2854ac" stroke="none" stroke-width="2"/>
+<path d="M320 205 V153 L278 105 M320 153 L362 105" fill="none" stroke="#177c68" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M291 96 L331 139 M349 96 L309 139" fill="none" stroke="#177c68" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M485 195 C448 156 480 106 513 104 L524 137 L543 107 C586 114 596 173 561 197 Z" fill="#f4d7b7" stroke="#b56a16" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="116" y="269" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="21" fill="#233c52" font-weight="700">Hemoglobin</text>
+<text x="320" y="269" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="21" fill="#233c52" font-weight="700">Kháng thể</text>
+<text x="524" y="269" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="21" fill="#233c52" font-weight="700">Enzyme</text>
+<text x="320" y="297" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="17" fill="#233c52" font-weight="400">Hình khái quát, không theo tỉ lệ phân tử.</text>
+</svg>

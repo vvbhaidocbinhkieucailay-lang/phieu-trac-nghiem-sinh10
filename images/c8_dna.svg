@@ -1,26 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="320" viewBox="0 0 600 320"><rect width="100%" height="100%" fill="white"/>
-<text x="95" y="28" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold">V</text>
-<rect x="46" y="58" width="98" height="234" fill="white" stroke="black" stroke-width="2"/>
-<polyline points="63,88 127,88" fill="none" stroke="black" stroke-width="7"/>
-<polyline points="63,132 127,132" fill="none" stroke="black" stroke-width="7"/>
-<polyline points="63,198 127,198" fill="none" stroke="black" stroke-width="7"/>
-<polyline points="63,263 127,263" fill="none" stroke="black" stroke-width="7"/>
-<text x="233" y="28" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold">M</text>
-<rect x="184" y="58" width="98" height="234" fill="white" stroke="black" stroke-width="2"/>
-<polyline points="201,88 265,88" fill="none" stroke="black" stroke-width="7"/>
-<polyline points="201,152 265,152" fill="none" stroke="black" stroke-width="7"/>
-<polyline points="201,198 265,198" fill="none" stroke="black" stroke-width="7"/>
-<polyline points="201,263 265,263" fill="none" stroke="black" stroke-width="7"/>
-<text x="371" y="28" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold">N</text>
-<rect x="322" y="58" width="98" height="234" fill="white" stroke="black" stroke-width="2"/>
-<polyline points="339,88 403,88" fill="none" stroke="black" stroke-width="7"/>
-<polyline points="339,132 403,132" fill="none" stroke="black" stroke-width="7"/>
-<polyline points="339,198 403,198" fill="none" stroke="black" stroke-width="7"/>
-<polyline points="339,263 403,263" fill="none" stroke="black" stroke-width="7"/>
-<text x="509" y="28" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold">P</text>
-<rect x="460" y="58" width="98" height="234" fill="white" stroke="black" stroke-width="2"/>
-<polyline points="477,88 541,88" fill="none" stroke="black" stroke-width="7"/>
-<polyline points="477,132 541,132" fill="none" stroke="black" stroke-width="7"/>
-<polyline points="477,218 541,218" fill="none" stroke="black" stroke-width="7"/>
-<polyline points="477,263 541,263" fill="none" stroke="black" stroke-width="7"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" width="640" height="440" role="img"><title>Các vị trí vạch DNA được biểu diễn</title><rect width="640" height="440" rx="16" fill="#f6f9fd"/>
+<text x="24" y="32" text-anchor="start" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="23" fill="#233c52" font-weight="700">Các vị trí vạch DNA được biểu diễn</text>
+<line x1="72" y1="115" x2="603" y2="115" stroke="#d7e2ed" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="43" y="115" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="18" fill="#233c52" font-weight="400">1</text>
+<line x1="72" y1="157" x2="603" y2="157" stroke="#d7e2ed" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="43" y="157" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="18" fill="#233c52" font-weight="400">2</text>
+<line x1="72" y1="199" x2="603" y2="199" stroke="#d7e2ed" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="43" y="199" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="18" fill="#233c52" font-weight="400">3</text>
+<line x1="72" y1="241" x2="603" y2="241" stroke="#d7e2ed" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="43" y="241" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="18" fill="#233c52" font-weight="400">4</text>
+<line x1="72" y1="283" x2="603" y2="283" stroke="#d7e2ed" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="43" y="283" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="18" fill="#233c52" font-weight="400">5</text>
+<line x1="72" y1="325" x2="603" y2="325" stroke="#d7e2ed" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="43" y="325" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="18" fill="#233c52" font-weight="400">6</text>
+<rect x="91" y="88" width="84" height="260" rx="4" fill="#edf3fa" stroke="#c9d8e9" stroke-width="2"/>
+<text x="133" y="67" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="26" fill="#233c52" font-weight="700">V</text>
+<rect x="104" y="109" width="58" height="12" rx="2" fill="#2854ac" stroke="#2854ac" stroke-width="2"/>
+<rect x="104" y="151" width="58" height="12" rx="2" fill="#2854ac" stroke="#2854ac" stroke-width="2"/>
+<rect x="104" y="235" width="58" height="12" rx="2" fill="#2854ac" stroke="#2854ac" stroke-width="2"/>
+<rect x="104" y="319" width="58" height="12" rx="2" fill="#2854ac" stroke="#2854ac" stroke-width="2"/>
+<rect x="226" y="88" width="84" height="260" rx="4" fill="#edf3fa" stroke="#c9d8e9" stroke-width="2"/>
+<text x="268" y="67" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="26" fill="#233c52" font-weight="700">M</text>
+<rect x="239" y="109" width="58" height="12" rx="2" fill="#2854ac" stroke="#2854ac" stroke-width="2"/>
+<rect x="239" y="193" width="58" height="12" rx="2" fill="#2854ac" stroke="#2854ac" stroke-width="2"/>
+<rect x="239" y="235" width="58" height="12" rx="2" fill="#2854ac" stroke="#2854ac" stroke-width="2"/>
+<rect x="239" y="319" width="58" height="12" rx="2" fill="#2854ac" stroke="#2854ac" stroke-width="2"/>
+<rect x="361" y="88" width="84" height="260" rx="4" fill="#edf3fa" stroke="#c9d8e9" stroke-width="2"/>
+<text x="403" y="67" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="26" fill="#233c52" font-weight="700">N</text>
+<rect x="374" y="109" width="58" height="12" rx="2" fill="#2854ac" stroke="#2854ac" stroke-width="2"/>
+<rect x="374" y="151" width="58" height="12" rx="2" fill="#2854ac" stroke="#2854ac" stroke-width="2"/>
+<rect x="374" y="235" width="58" height="12" rx="2" fill="#2854ac" stroke="#2854ac" stroke-width="2"/>
+<rect x="374" y="319" width="58" height="12" rx="2" fill="#2854ac" stroke="#2854ac" stroke-width="2"/>
+<rect x="496" y="88" width="84" height="260" rx="4" fill="#edf3fa" stroke="#c9d8e9" stroke-width="2"/>
+<text x="538" y="67" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="26" fill="#233c52" font-weight="700">P</text>
+<rect x="509" y="109" width="58" height="12" rx="2" fill="#2854ac" stroke="#2854ac" stroke-width="2"/>
+<rect x="509" y="151" width="58" height="12" rx="2" fill="#2854ac" stroke="#2854ac" stroke-width="2"/>
+<rect x="509" y="277" width="58" height="12" rx="2" fill="#2854ac" stroke="#2854ac" stroke-width="2"/>
+<rect x="509" y="319" width="58" height="12" rx="2" fill="#2854ac" stroke="#2854ac" stroke-width="2"/>
+<text x="320" y="381" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="21" fill="#233c52" font-weight="400">V: mẫu dấu vết • M, N, P: ba người</text>
+<text x="320" y="414" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="20" fill="#233c52" font-weight="400">Đối chiếu các vạch trên cùng một hàng.</text>
 </svg>

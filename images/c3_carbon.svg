@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 350" width="640" height="350" role="img"><title>Mô hình lớp electron của carbon</title><rect width="640" height="350" rx="16" fill="#f6f9fd"/>
+<text x="24" y="32" text-anchor="start" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="23" fill="#233c52" font-weight="700">Mô hình lớp electron của carbon</text>
+<circle cx="190" cy="190" r="94" fill="none" stroke="#c7d9ed" stroke-width="2"/>
+<circle cx="190" cy="190" r="47" fill="none" stroke="#c7d9ed" stroke-width="2"/>
+<circle cx="190" cy="190" r="23" fill="#177c68" stroke="none" stroke-width="2"/>
+<text x="190" y="190" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="28" fill="white" font-weight="700">C</text>
+<circle cx="237.0" cy="190.0" r="8" fill="#2854ac" stroke="none" stroke-width="2"/>
+<circle cx="143.0" cy="190.0" r="8" fill="#2854ac" stroke="none" stroke-width="2"/>
+<circle cx="284.0" cy="190.0" r="8" fill="#2854ac" stroke="none" stroke-width="2"/>
+<circle cx="190.0" cy="284.0" r="8" fill="#2854ac" stroke="none" stroke-width="2"/>
+<circle cx="96.0" cy="190.0" r="8" fill="#2854ac" stroke="none" stroke-width="2"/>
+<circle cx="189.99999999999997" cy="96.0" r="8" fill="#2854ac" stroke="none" stroke-width="2"/>
+<text x="455" y="136" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="24" fill="#233c52" font-weight="700">Nguyên tử carbon</text>
+<circle cx="369" cy="183" r="8" fill="#2854ac" stroke="none" stroke-width="2"/>
+<text x="390" y="183" text-anchor="start" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="22" fill="#233c52" font-weight="400">Electron</text>
+<text x="455" y="227" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="22" fill="#233c52" font-weight="400">Kí hiệu hóa học: C</text>
+<text x="320" y="320" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="18" fill="#233c52" font-weight="400">Mô hình lớp electron giản lược, không theo tỉ lệ.</text>
+</svg>
